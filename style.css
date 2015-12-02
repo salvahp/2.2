@@ -1637,7 +1637,7 @@ img {
   max-width: 100%;
 }
 .banner {
-  background: url(img/hero-bg.jpg) 0 0 no-repeat;
+  background: url(img/bg1_banner_img.JPG) 0 0 no-repeat;
   background-size: cover;
   text-align: center;
 }
