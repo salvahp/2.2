@@ -1713,7 +1713,7 @@ img {
 .logo {
   width: 160px;
   height: 95px;
-  background: url(img/logo.svg) 50% 50% no-repeat;
+  background: url(img/petergift_logo.png) 50% 50% no-repeat;
   display: inline-block;
   float: left;
   -webkit-transition: all 0.3s;
@@ -1910,7 +1910,7 @@ img {
   animation-name: fadeInRight;
 }
 .ingredients-block {
-  background: url(img/ingredients-bg.jpg) 0 0 no-repeat;
+  background: url(img/bg2_banner_img.JPG) 0 0 no-repeat;
   background-size: cover;
 }
 .feature-image-group {
@@ -2087,7 +2087,7 @@ img {
   animation-name: fadeInLeft;
 }
 .reviews-block {
-  background: url(img/reviews-bg.jpg) 0 50% no-repeat;
+  background: url(img/bg3_banner_img.JPG) 0 50% no-repeat;
   background-size: cover;
 }
 .reviews-block.active {
