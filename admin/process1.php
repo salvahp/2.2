@@ -5,7 +5,7 @@ include 'filesystem.class.php';
 $file = new FileSystem;
 
 // Write to file (silent)
-$filename = "menukort/menukort1.html";
+$filename = "menukort/menukort_1.html";
 $content = $_POST["text"];
 $file->write($filename,$content);
 
