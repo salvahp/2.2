@@ -12,8 +12,7 @@ $file = new FileSystem;
 
 <title>Rediger Menukort</title>
 </head>
-<input type="text">
-<textarea name="" id="" cols="30" rows="10"></textarea>
+
 <body>
 <section>
 	<h1>Rediger Menukort</h1>
@@ -28,7 +27,7 @@ if(isset($_GET["success"])) {
 }
 ?>
 <main>
-<section>
+<section id="menupunkter">
 	<form action="process1.php" method="post">
 		<h2>Punkt. 1</h2>
 		<textarea class="text" name="text">

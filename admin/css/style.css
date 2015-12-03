@@ -1,5 +1,5 @@
 body {
-	background-color: #333;
+	background-color: #3D5C44;
 	color: #ddd;
 }
 a {
@@ -9,61 +9,55 @@ a {
 a:hover {
 	color: #f00;
 }
-h1 {
-	font-size: 2.5em;
-	font-family: inherit;
-	font-weight: normal;
+
+
+
+/*Rediger menukort */
+h1 {font-size: 2.5em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 300;
 	color: #fff;
-	margin: 0;
-	padding: 0;
+	margin: 5px;
+	padding: 20px;
+	text-align:center;
 }
+
+/*Her kan du redigere i menupunkterne */
+p {	font-size: 1.2em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 100;
+	color: #fff;
+	padding: 20px;
+	text-align:center;
+	}
+
+
+
 h2 {
 	font-size: 1.5em;
-	font-family: inherit;
-	font-weight: normal;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 100;
 	color: #fff;
-	margin: 0;
-	padding: 0;
-}
-h3 {
-	font-size: 1em;
-	font-family: inherit;
-	font-weight: normal;
-	color: #00f;
-	margin: 0;
-	padding: 0;
-}
-h4 {
-	font-size: 1em;
-	font-family: inherit;
-	font-weight: normal;
-	color: #00f;
-	margin: 0;
-	padding: 0;
-}
-h5 {
-	font-size: 1em;
-	font-family: inherit;
-	font-weight: normal;
-	color: #00f;
-	margin: 0;
-	padding: 0;
-}
-h6 {
-	font-size: 1em;
-	font-family: inherit;
-	font-weight: normal;
-	color: #00f;
-	margin: 0;
-	padding: 0;
 }
 
+#menupunkter {
+	width:15%;
+	margin: 0 auto;
+	padding: 0 auto;
+	}
+
+.text {
+	margin: 10px 70px 0px 0px;
+	padding: 10px 300px 100px 0px;
+	font-size:18px;
+	}
+	
+.button {
+	margin-top:10px;
+	margin-bottom:40px;
+	}
 
 
-/* - - - - - - - - - - - - - - - - - - - - - 
-	module: Main site menu
-	class: 	menu-main
-   - - - - - - - - - - - - - - - - - - - - - */
 .menu-main {}
 .menu-main li {
 	display: inline;
