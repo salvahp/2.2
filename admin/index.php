@@ -22,6 +22,10 @@
 			$filename = "content/contact.html";
 			echo($file->read($filename));
 	
+		// Read file
+			$filename = "menukort/menukort_1.html";
+			echo($file->read($filename));
+	
 	?>
 
 
