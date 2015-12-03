@@ -14,6 +14,7 @@ $file = new FileSystem;
 </head>
 
 <body>
+<div id="wrapper">
 <section>
 	<h1>Rediger Menukort</h1>
 	<p>Her redigeres i Menukortet på Peter Gift hjemmesiden. <!-- Punkterne gemmes enkeltvis--></p>
@@ -119,8 +120,9 @@ if(isset($_GET["success"])) {
 		<button type="submit" class="button">Gem</button>
 	</form>
 	
-	
-
 </section>
+</main>
+</div>
+
 </body>
 </html>

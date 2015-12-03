@@ -40,15 +40,22 @@ h2 {
 	color: #fff;
 }
 
+#wrapper {
+	width:100%;
+	margin: 0 auto;
+	}
+	
 #menupunkter {
 	width:15%;
 	margin: 0 auto;
 	padding: 0 auto;
 	}
 
+
+
 .text {
-	margin: 10px 70px 0px 0px;
-	padding: 10px 300px 100px 0px;
+	margin: 10% 70% 0 0;
+	padding: 0 100% 100% 0;
 	font-size:18px;
 	}
 	
