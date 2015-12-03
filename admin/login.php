@@ -18,8 +18,8 @@ session_start();
 	<h2> Brugeroplysninger </h2>
 	
     <form method="post" action="check.php">
-Brugeravn: <input name="username" type="text">
-password: <input name="password" type="password"> <br/>
+<p>Brugeravn:</p> <input name="username" type="text">
+<p>password:</p> <input name="password" type="password"> <br/>
 	<input type="submit" value="Login" >
 	</form>
 </section>

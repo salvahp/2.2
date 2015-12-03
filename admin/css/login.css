@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.info { background-color:#585858; 
+.info { background-color:#3D5C44; 
 		padding: 10px 10px 10px 10px; 
 		max-width: 200px ; }
+
+h1 {}
+
+h2 {}
+
+p {}
