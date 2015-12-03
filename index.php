@@ -13,9 +13,10 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--header 1 start -->
 <section class="banner">
 <header class="header">
-	<section class="header-inner container clear"> <a class="logo" href="#"><span class="sr">Lambda Logo</span></a>
+	<div class="header-inner container clear"> <a class="logo" href="#"><span class="sr">Lambda Logo</span></a>
 		<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
 		<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
 		<nav class="navigation">
@@ -31,15 +32,16 @@
 				<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
 			</ul>
 		</nav>
-	</section>
+	</div>
 </header>
 <div class="banner-inner container">
 	<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2">PETER GIFT</span> </h1>
 	<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book et bord</a> <a href="#menu" class="button button-secondary">Se menuen</a> </div>
 </div>
 </section>
+<!-- Åbningstider  -->
 <section id="about" class="content-block about-block">
-	<section class="about-block-inner container">
+	<div class="about-block-inner container">
 		<div class="clear text-center">
 			<div class="about-block-content col-6-desktop">
 				<h2>Åbningstider</h2>
@@ -50,10 +52,11 @@
                  </div>
 			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Dish of food"> </div>
 		</div>
-	</section>
+	</div>
 </section>
+<!--nyheder -->
 <section id="ingredients" class="content-block ingredients-block">
-	<section class="ingredients-block-inner container clear">
+	<div class="ingredients-block-inner container clear">
 		<div class="feature-box text-center col-12 col-6-desktop right">
 			<h2 class="h2-secondary">Peter Gift Nyheder</h2>
 			<div class="feature-box-content">
@@ -63,10 +66,11 @@
 				
 			</div>
 		</div>
-	</section>
+	</div>
 </section>
+<!--menukort-->
 <section id="menu" class="content-block food-menu-block">
-	<section class="food-menu-block-inner container">
+	<div class="food-menu-block-inner container">
 		<div class="clear">
 			<div class="food-menu-content">
 				<h2>Frokostmenu<br>
@@ -248,10 +252,11 @@
 				</ul>
 			</div>
 		</div>
-	</section>
+	</div>
 </section>
+<!--gæster siger -->
 <section id="reviews" class="content-block reviews-block">
-	<section class="reviews-block-inner container">
+	<div class="reviews-block-inner container">
 		<div class="feature-box text-center col-12-tablet col-8-desktop no-float center-element">
 			<h2 class="h2-secondary">Guest Reviews</h2>
 			<blockquote>
@@ -260,10 +265,11 @@
 					Stop in today and check us out! </p>
 				<cite> food inc, New York </cite> </blockquote>
 		</div>
-	</section>
+	</div>
 </section>
+<!--reservationer-->
 <section id="reservations" class="content-block reservations-block">
-	<section class="reservations-block-inner container">
+	<div class="reservations-block-inner container">
 		<div class="clear">
 			<div class="reservation-block-img col-3-desktop none block-desktop"> <img src="img/food-01.jpg" alt="Food"> </div>
 			<div class="reservation-block-img col-6-tablet col-3-desktop none block-tablet"> <img src="img/food-02.jpg" alt="Food"> </div>
@@ -310,8 +316,9 @@
 				</form>
 			</div>
 		</div>
-	</section>
+	</div>
 </section>
+<!--footer-->
 <footer class="footer">
 	<section class="footer-inner container">
 		<div class="clear">
