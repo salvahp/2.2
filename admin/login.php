@@ -7,6 +7,7 @@ session_start();
 <head>
 	<meta charset="utf-8">
 	<title>Peter Gift CMS</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 
