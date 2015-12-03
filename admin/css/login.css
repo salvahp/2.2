@@ -2,11 +2,34 @@
 /* CSS Document */
 
 .info { background-color:#3D5C44; 
-		padding: 10px 10px 10px 10px; 
-		max-width: 200px; }
+		padding: 50px;
+		max-width: 100%;
+		text-align:center; 
+		}
 
-h1 {}
+h1 	  { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		font-size:36px;
+		text-align:center;
+		padding:20px; 
+		}
 
-h2 {}
 
-p {}
+p 	  { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		font-size:18px;
+		padding: 10px; 
+		}
+		
+#username {
+	padding:10px;
+	font-size:16px;
+	}
+	
+#password {
+	padding:10px;
+	font-size:16px;
+	}
+	
+#login {
+	margin-top: 30px;
+	font-size:24px;
+	}

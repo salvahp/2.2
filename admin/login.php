@@ -16,12 +16,11 @@ session_start();
 <h1>Login</h1>
 
 <section class="info">
-	<h2> Brugeroplysninger </h2>
 	
     <form method="post" action="check.php">
-<p>Brugeravn:</p> <input name="username" type="text">
-<p>password:</p> <input name="password" type="password"> <br/>
-	<input type="submit" value="Login" >
+<p>Brugeravn:</p> <input name="username" type="text" id="username">
+<p>password:</p> <input name="password" type="password" id="password"> <br/>
+	<input type="submit" value="Login" id="login">
 	</form>
 </section>
 <?php echo $_SESSION["loggedin"];
