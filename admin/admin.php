@@ -33,7 +33,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_1.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -44,7 +44,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_2.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -55,7 +55,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_3.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -66,7 +66,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_4.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -77,7 +77,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_5.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -88,7 +88,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_6.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -99,7 +99,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_7.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -110,7 +110,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_8.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -121,7 +121,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_9.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
@@ -132,7 +132,7 @@ if(isset($_GET["success"])) {
 		<textarea id="text" name="text">
 			<?php			
 				// Read file
-				$filename = "menukort/menukort1.html";
+				$filename = "menukort/menukort_10.html";
 				echo($file->read($filename));
 			?>
 		</textarea>		
