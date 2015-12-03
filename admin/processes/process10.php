@@ -5,9 +5,9 @@ include 'filesystem.class.php';
 $file = new FileSystem;
 
 // Write to file (silent)
-$filename = "content/contact.html";
+$filename = "../includes/menukort/menukort_10.html";
 $content = $_POST["text"];
 $file->write($filename,$content);
 
 // Redirect to form
-header('Location: admin.php?success');
+header('Location: ../admin.php?success');

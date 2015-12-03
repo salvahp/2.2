@@ -6,24 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<?php include('filesystem.class.php'); 
+	<?php include('processes/filesystem.class.php'); 
 	$file = new FileSystem;
 	
 
 		// Read file
-			$filename = "content/campaign.html";
-			echo($file->read($filename));
-		
-		// Read file
-			$filename = "content/news.html";
-			echo($file->read($filename));
-		
-		// Read file
-			$filename = "content/contact.html";
+			$filename = "includes/menukort/menukort_9.html";
 			echo($file->read($filename));
 	
 		// Read file
-			$filename = "menukort/menukort_1.html";
+			$filename = "includes/menukort/menukort_10.html";
 			echo($file->read($filename));
 	
 	?>

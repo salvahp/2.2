@@ -41,21 +41,33 @@ h2 {
 }
 
 #wrapper {
-	width:100%;
+	width:80%;
 	margin: 0 auto;
+	padding:0 auto;
 	}
 	
+
+/*
 #menupunkter {
-	width:15%;
+	width:50%;
 	margin: 0 auto;
 	padding: 0 auto;
+	text-align:center;
+	}
+*/
+.punkt {
+	
+	
+	}
+	
+form {
+	width:65%;
+	margin: 0 auto;
 	}
 
-
-
 .text {
-	margin: 10% 70% 0 0;
-	padding: 0 100% 100% 0;
+
+	padding: 0 70% 5% 0;
 	font-size:18px;
 	}
 	
