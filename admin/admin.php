@@ -30,112 +30,92 @@ if(isset($_GET["success"])) {
 <section id="menupunkter">
 	<form action="process1.php" method="post">
 		<h2>Punkt. 1</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_1.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 	<form action="process1.php" method="post">
 		<h2>Punkt. 2</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_2.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 3</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_3.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 4</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_4.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 5</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_5.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 6</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_6.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 7</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_7.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 8</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_8.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 9</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_9.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 		<form action="process1.php" method="post">
 		<h2>Punkt. 10</h2>
-		<textarea class="text" name="text">
-			<?php			
+		<textarea class="text" name="text"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_10.html";
 				echo($file->read($filename));
-			?>
-		</textarea>		
+			?></textarea>		
 		<button type="submit" class="button">Gem</button>
 	</form>
 	
