@@ -44,9 +44,16 @@
 	<div class="about-block-inner container">
 		<div class="clear text-center">
 			<div class="about-block-content col-6-desktop">
-				<h2>Åbningstider</h2>
-				<p> man-fre 08:00-20:00 <br>
-					lør-søn 09:00-21:00 <br>
+				<h2>Peter Gift – lige over for Bruuns Galleri</h2>
+				<p> Hos Peter Gift holder vi traditionerne i hævd, og i 2006 kunne vi 
+                	fejre 100 års jubilæum. Kom ind og nyd en pause i hverdagen. 
+					Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
+                    pejsen. Kom ind og prøv vores landskendte gløgg i julemåneden.
+					Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
+                    glas velskænket ROYAL.
+ 				</p>
+                <p> Mandag-lørdag 11:00-01:00 <br>
+					Søndag og helligdage 14:00-22:00 <br>
 					Kig ind! </p>
 				
                  </div>
@@ -283,21 +290,21 @@
 						<legend class="sr">Contact Us</legend>
 						<div class="clear">
 							<div class="col-6-tablet field-group">
-								<label class="block strong" for="name">Name</label>
-								<input name="full-name" class="field" id="name" type="text" placeholder="your name *">
+								<label class="block strong" for="name">Navn</label>
+								<input name="full-name" class="field" id="name" type="text" placeholder="Dit navn *">
 							</div>
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="email">Email</label>
-								<input name="email" class="field" id="email" type="email" placeholder="your email *">
+								<input name="email" class="field" id="email" type="email" placeholder="Din email *">
 							</div>
 						</div>
 						<div class="clear">
 							<div class="col-6-tablet field-group">
-								<label class="block strong" for="date">Date</label>
-								<input name="date-of-booking" class="field" id="date" type="text" placeholder="date *">
+								<label class="block strong" for="date">Dato</label>
+								<input name="date-of-booking" class="field" id="date" type="text" placeholder="dato *">
 							</div>
 							<div class="col-6-tablet field-group">
-								<label class="block strong" for="party-size">Party size</label>
+								<label class="block strong" for="party-size">Antal personer</label>
 								<span class="select">
 								<select name="party-size" id="party-size">
 									<option value="1">1</option>
@@ -310,7 +317,7 @@
 								</span> </div>
 						</div>
 						<div class="text-center">
-							<input type="submit" class="button reservations-submit" value="Book now!">
+							<input type="submit" class="button reservations-submit" value="Book!">
 						</div>
 					</fieldset>
 				</form>
