@@ -92,8 +92,10 @@
 							</p>
 						</div>
 					</li>
+                    </ul>
                     </div>
 					<div class="food-menu-content">
+                    <ul class="food-menu-list">
 					<li class="food-menu-item">
 						<div class="food-menu-item-header clear">
 							<h3 class="food-menu-heading"><?php include "menukort/menukort_9.html"; ?></h3>
