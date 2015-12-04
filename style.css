@@ -121,7 +121,7 @@ h2,
   line-height: 2.5rem;
   margin-top: 1.4em;
   margin-bottom: .2em;
-  color: #abada2;
+  color: #d2bb87;
   font-weight: 400;
 }
 h3,
@@ -1860,6 +1860,9 @@ img {
   background: #f6f6f6;
   padding-top: 70px;
   padding-bottom: 70px;
+}
+#text-petergift {
+	color:#abada2;
 }
 .about-block {
   background: url(img/contemporary-china.png) 0 0 repeat;

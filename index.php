@@ -44,7 +44,12 @@
 	<div class="about-block-inner container">
 		<div class="clear text-center">
 			<div class="about-block-content col-6-desktop">
+				            
 				<h2>Peter Gift – lige over for Bruuns Galleri</h2>
+                <div id="text-petergift">
+                <p> Mandag-lørdag 11:00-01:00 <br>
+					Søndag og helligdage 14:00-22:00 <br>
+					Kig ind! </p>
 				<p> Hos Peter Gift holder vi traditionerne i hævd, og i 2006 kunne vi 
                 	fejre 100 års jubilæum. Kom ind og nyd en pause i hverdagen. 
 					Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
@@ -52,9 +57,7 @@
 					Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
                     glas velskænket ROYAL.
  				</p>
-                <p> Mandag-lørdag 11:00-01:00 <br>
-					Søndag og helligdage 14:00-22:00 <br>
-					Kig ind! </p>
+                </div>
 				
                  </div>
 			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Dish of food"> </div>
