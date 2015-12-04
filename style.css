@@ -2132,6 +2132,10 @@ img {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+
+#text-reservations {
+	padding-top:5%;
+	}
 .reservations-block {
   background: url(img/pw-maze-white.png) 0 0 repeat;
 }

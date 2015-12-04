@@ -278,11 +278,11 @@
 <section id="reservations" class="content-block reservations-block">
 	<div class="reservations-block-inner container">
 		<div class="clear">
-			<div class="reservation-block-img col-3-desktop none block-desktop"> <img src="img/food-01.jpg" alt="Food"> </div>
-			<div class="reservation-block-img col-6-tablet col-3-desktop none block-tablet"> <img src="img/food-02.jpg" alt="Food"> </div>
-			<div class="reservation-block-form col-6-tablet">
+        	<img src="img/mad_img.jpg" alt="Food">
+			
+			<div class="reservation-block-form col-5-tablet">
 				<div class=".text-left">
-					<h2>BORD RESERVATION</h2>
+					<div id="text-reservations">
 					<p> Reservationer i tidsrummet 12:00 - 15.00 er forbeholdt spisende gæster. <br>
 Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
 e-mail.<br>
@@ -290,10 +290,14 @@ Selskaber fra 7 personer kan ikke booke bord online.<br>
 Venligst kontakt os på email info@petergift.dk eller på telefon 86 12 01 63.
 <br>Ved telefonisk henvendelse kontaktes vi bedst imellem 11.00 og 12.00 - 15.30 og 17.30.  </p>
 				</div>
+                </div>
+                </div>
+                <div class="reservation-block-form col-7-tablet">
 				<form class="reservations-form">
 					<fieldset>
 						<legend class="sr">Contact Us</legend>
 						<div class="clear">
+                        <h2>BORD RESERVATION</h2>
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="name">Navn</label>
 								<input name="full-name" class="field" id="name" type="text" placeholder="Dit navn *">
@@ -321,6 +325,7 @@ Venligst kontakt os på email info@petergift.dk eller på telefon 86 12 01 63.
 								</select>
 								</span> </div>
 						</div>
+                        
 						<div class="text-center">
 							<input type="submit" class="button reservations-submit" value="Book!">
 						</div>
