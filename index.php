@@ -59,6 +59,8 @@
  				</p>
                 </div>
 				
+                
+                
                  </div>
 			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Dish of food"> </div>
 		</div>
@@ -67,7 +69,7 @@
 <!--nyheder -->
 <section id="ingredients" class="content-block ingredients-block">
 	<div class="ingredients-block-inner container clear">
-		<div class="feature-box text-center col-12 col-6-desktop right">
+		<div class="feature-box text-center col-12 col-12-desktop right">
 			<h2 class="h2-secondary">Peter Gift Nyheder</h2>
 			<div class="feature-box-content">
 				<p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
@@ -75,24 +77,31 @@
 					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
 				
 			</div>
+                     
+            
 		</div>
 	</div>
 </section>
 <!--menukort-->
 <?php include "admin/includes/samletmenu.php"; ?>
 <!--gæster siger -->
+
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
-		<div class="feature-box text-center col-12-tablet col-8-desktop no-float center-element">
+		
+        <div class="feature-box text-center col-12-tablet col-8-desktop center-element">
 			<h2 class="h2-secondary">Guest Reviews</h2>
 			<blockquote>
 				<p> If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more.
 					Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees makes us hard to resist!
 					Stop in today and check us out! </p>
 				<cite> food inc, New York </cite> </blockquote>
-		</div>
+             </div>
+        
 	</div>
 </section>
+
+
 <!--reservationer-->
 <section id="reservations" class="content-block reservations-block">
 	<div class="reservations-block-inner container">
