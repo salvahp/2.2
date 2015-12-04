@@ -1,11 +1,12 @@
 <section id="menu" class="content-block food-menu-block">
 	<div class="food-menu-block-inner container">
 		<div class="clear">
-			<div class="food-menu-content">
+			
 				<h2>Frokostmenu<br>
 					11:00 - 15:00<br>
 					Tirsdag til fredag</h2>
-				<ul class="food-menu-list">
+				<div class="food-menu-content">
+                		<ul class="food-menu-list">
 										<li class="food-menu-item">
 						<div class="food-menu-item-header clear">
 							<h3 class="food-menu-heading"><?php include "menukort/menukort_1.html"; ?></h3>
@@ -91,7 +92,8 @@
 							</p>
 						</div>
 					</li>
-					
+                    </div>
+					<div class="food-menu-content">
 					<li class="food-menu-item">
 						<div class="food-menu-item-header clear">
 							<h3 class="food-menu-heading"><?php include "menukort/menukort_9.html"; ?></h3>

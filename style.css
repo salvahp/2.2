@@ -132,7 +132,7 @@ h3,
   line-height: 1.75rem;
   margin-top: 1em;
   margin-bottom: .2em;
-  color: #c90;
+  color: #d2bb87;
   font-weight: 400;
 }
 h4,
@@ -143,7 +143,7 @@ h4,
   line-height: 1.5rem;
   margin-top: 1em;
   margin-bottom: .2em;
-  color: #c90;
+  color: #d2bb87;
   font-weight: 400;
 }
 h5,
@@ -154,7 +154,7 @@ h5,
   line-height: 1.375rem;
   margin-top: 1em;
   margin-bottom: .1em;
-  color: #c90;
+  color: #d2bb87;
   font-weight: 400;
 }
 h6,
@@ -165,7 +165,7 @@ h6,
   line-height: 1.25rem;
   margin-top: 1em;
   margin-bottom: .1em;
-  color: #c90;
+  color: #d2bb87;
   font-weight: 400;
 }
 b,
@@ -2024,7 +2024,7 @@ img {
   right: -1px;
   font-weight: 700;
   padding: 0 5px;
-  background-color: #cd9f0b;
+  background-color: #d2bb87;
   background-color: rgba(205, 159, 11, 0.8);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccd9f0b, endColorstr=#cccd9f0b);
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccd9f0b, endColorstr=#cccd9f0b);
@@ -2039,9 +2039,9 @@ img {
   line-height: 1.75rem;
   margin-top: 1em;
   margin-bottom: .2em;
-  color: #c90;
+  color: #d2bb87;
   font-weight: 400;
-  color: #cd9f0b;
+  color: #d2bb87;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
@@ -2066,7 +2066,7 @@ img {
   margin-bottom: .2em;
   color: #c90;
   font-weight: 400;
-  color: #cd9f0b;
+  color: #d2bb87;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
@@ -2074,6 +2074,10 @@ img {
   width: 50%;
   padding: 0;
   text-align: right;
+}
+
+.food-menu-summary {
+	color: #d2bb87;
 }
 .food-menu-block.active .food-menu-content {
   -webkit-animation-duration: 1s;
@@ -2403,9 +2407,13 @@ img {
     margin: 0 5px;
   }
   .food-menu-content {
+    padding-left: 15px;
+    padding-right: 15px;
     position: relative;
     float: left;
-    width: 100%;
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
     
   }
 }
