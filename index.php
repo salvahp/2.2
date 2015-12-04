@@ -45,16 +45,19 @@
 		<div class="clear text-center">
 			<div class="about-block-content col-6-desktop">
 				            
-				<h2>Peter Gift – lige over for Bruuns Galleri</h2>
+				<h2>Peter Gift - M.P. Bruuns gade 28</h2>
                 <div id="text-petergift">
-                <p> Mandag-lørdag 11:00-01:00 <br>
+                <p> <strong>Åbningstider:</strong><br>
+                	Mandag-lørdag 11:00-01:00 <br>
 					Søndag og helligdage 14:00-22:00 <br>
 					Kig ind! </p>
-				<p> Hos Peter Gift holder vi traditionerne i hævd, og i 2006 kunne vi 
-                	fejre 100 års jubilæum. Kom ind og nyd en pause i hverdagen. 
+                 <p><strong>Frokost køkken åbningstider:</strong><br>
+					Tirsdag-fredag 11:00-15:00<br>
+					Lørdag er der buffet fra 12:00-15:00</p><br>
+                
+                 <p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
 					Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
-                    pejsen. Kom ind og prøv vores landskendte gløgg i julemåneden.
-					Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
+                    pejsen. Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
                     glas velskænket ROYAL.
  				</p>
                 </div>
