@@ -17,8 +17,8 @@ h1 {font-size: 2.5em;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight: 300;
 	color: #fff;
-	margin: 5px;
-	padding: 20px;
+	margin: 1%;
+	padding: 2%;
 	text-align:center;
 }
 
@@ -27,7 +27,7 @@ p {	font-size: 1.2em;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight: 100;
 	color: #fff;
-	padding: 10%;
+	padding: 2%;
 	text-align:center;
 	}
 
@@ -67,7 +67,11 @@ form {
 
 .text {
 
-	padding: 0 70% 5% 0;
+	font-size:18px;
+	}
+	
+.price {
+
 	font-size:18px;
 	}
 	
