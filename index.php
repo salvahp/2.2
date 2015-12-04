@@ -42,10 +42,10 @@
 <!-- Åbningstider  -->
 <section id="about" class="content-block about-block">
 	<div class="about-block-inner container">
-		<div class="clear text-center">
+		<div class="clear text-left">
 			<div class="about-block-content col-6-desktop">
 				            
-				<h2>Peter Gift - M.P. Bruuns gade 28</h2>
+				<h2>M.P. Bruuns gade 28, 8000 Århus C</h2>
                 <div id="text-petergift">
                 <p> <strong>Åbningstider:</strong><br>
                 	Mandag-lørdag 11:00-01:00 <br>
