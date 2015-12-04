@@ -75,6 +75,12 @@
 				<p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
 					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
 					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
+                    <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
+					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
+					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
+                    <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
+					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
+					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
 				
 			</div>
                      
