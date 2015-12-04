@@ -77,7 +77,7 @@ p {
   margin: 0 0 1em 0;
 }
 a {
-  color: #c90;
+  color: #d2bb87;
   background: transparent;
   text-decoration: underline;
 }
@@ -121,7 +121,7 @@ h2,
   line-height: 2.5rem;
   margin-top: 1.4em;
   margin-bottom: .2em;
-  color: #d2bb87;
+  color: #abada2;
   font-weight: 400;
 }
 h3,
@@ -1862,7 +1862,7 @@ img {
   padding-bottom: 70px;
 }
 #text-petergift {
-	color:#abada2;
+	color:#d2bb87;
 }
 .about-block {
   background: url(img/contemporary-china.png) 0 0 repeat;
