@@ -12,7 +12,7 @@
 							<span class="food-menu-price"><?php include "menukort/menukort_1_pris.html"; ?></span> </div>
 						<div class="food-menu-summary">
 							<p> 
-								<!--BESKRIVENDE TEKST HER--> 
+								<?php include "menukort/menukort_1_beskrivelse.html"; ?> 
 							</p>
 						</div>
 					</li>

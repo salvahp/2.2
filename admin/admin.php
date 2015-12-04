@@ -39,8 +39,9 @@ if(isset($_GET["success"])) {
 ?>
 	<main id="menupunkter">
 		<section class="punkt">
+			<h2>Punkt 1</h2>
 			<form action="processes/process1.php" method="post">
-				<h2>Punkt 1</h2>
+				
 				<textarea class="text" name="text" rows="2" cols="50"><?php			
 				// Læs menupunkt
 				$filename = "includes/menukort/menukort_1.html";
@@ -51,8 +52,16 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_1_pris.html";
 				echo($file->read($filename));
-			?></textarea>
-				<button type="submit" class="button">Gem</button>
+			?>
+</textarea>
+
+				<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_1_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
+<button type="submit" class="button">Gem</button>				
 			</form>
 		</section>
 		<section class="punkt">
@@ -68,7 +77,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_2_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -85,7 +101,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_3_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -102,7 +125,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_4_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -119,7 +149,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_5_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -136,7 +173,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_6_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -153,7 +197,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_7_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -170,7 +221,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_8_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -187,7 +245,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_9_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -204,11 +269,17 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_10_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
-		
 		<section class="punkt">
 			<form action="processes/process11.php" method="post">
 				<h2>Punkt 11</h2>
@@ -222,11 +293,17 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_11_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
-		
 		<section class="punkt">
 			<form action="processes/process12.php" method="post">
 				<h2>Punkt 12</h2>
@@ -240,11 +317,17 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_12_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
-		
 		<section class="punkt">
 			<form action="processes/process13.php" method="post">
 				<h2>Punkt 13</h2>
@@ -258,11 +341,17 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_13_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
-		
 		<section class="punkt">
 			<form action="processes/process14.php" method="post">
 				<h2>Punkt 14</h2>
@@ -276,7 +365,14 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_14_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
@@ -293,11 +389,17 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_15_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
-		
 		<section class="punkt">
 			<form action="processes/process16.php" method="post">
 				<h2>Punkt 16</h2>
@@ -311,11 +413,17 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_16_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs beskrivelse
+				$filename = "includes/menukort/menukort_11_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
-		
 		<section class="punkt">
 			<form action="processes/process17.php" method="post">
 				<h2>Punkt 17</h2>
@@ -329,12 +437,18 @@ if(isset($_GET["success"])) {
 				// læs pris
 				$filename = "includes/menukort/menukort_17_pris.html";
 				echo($file->read($filename));
-			?></textarea>
+			?>
+</textarea>
+
+				<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				// læs pris
+				$filename = "includes/menukort/menukort_17_beskrivelse.html";
+				echo($file->read($filename));
+			?>
+</textarea>
 				<button type="submit" class="button">Gem</button>
 			</form>
-		</section>	
-		
-		
+		</section>
 	</main>
 </div>
 </body>
