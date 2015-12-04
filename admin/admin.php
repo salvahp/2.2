@@ -59,25 +59,25 @@ if(isset($_GET["success"])) {
 				echo($file->read($filename));
 			?>
 </textarea>
-				<button type="submit" class="button">Gem</button>
+<!--				<button type="submit" class="button">Gem</button>
 			</form>
 		</section>
 		<section class="punkt">
-			<form action="processes/process2.php" method="post">
-				<h2>Punkt 2</h2>
-				<textarea class="text" name="text" rows="2" cols="50"><?php			
+			<form action="processes/process2.php" method="post">-->
+<h2>Punkt 2</h2>
+				<textarea class="text" name="text2" rows="2" cols="50"><?php			
 				// Read file
 				$filename = "includes/menukort/menukort_2.html";
 				echo($file->read($filename));
 			?>
 </textarea>
-				<textarea class="description" name="description" rows="2" cols="50" ><?php			
+				<textarea class="description" name="description2" rows="2" cols="50" ><?php			
 				// læs beskrivelse
 				$filename = "includes/menukort/menukort_2_beskrivelse.html";
 				echo($file->read($filename));
 			?>
 </textarea>
-				<textarea class="price" name="price" rows="2" cols="5" ><?php			
+				<textarea class="price" name="price2" rows="2" cols="5" ><?php			
 				// læs pris
 				$filename = "includes/menukort/menukort_2_pris.html";
 				echo($file->read($filename));
