@@ -169,7 +169,7 @@ Venligst kontakt os på email info@petergift.dk eller på telefon 86 12 01 63.
 		<div class="clear">
 			<div class="footer-column col-4-desktop">
 				<h3 class="footer-heading">Peter Gift</h3>
-				<p> Her er der plads til <strong>alle</strong>!</p>
+				<p> Kig ind - <br>Her er der plads til <strong>alle</strong>!</p>
 			</div>
 			<div class="footer-column col-4-desktop">
 				<h3 class="footer-heading">Åbnings tider</h3>
