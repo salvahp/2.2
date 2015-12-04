@@ -168,9 +168,8 @@ Venligst kontakt os på email info@petergift.dk eller på telefon 86 12 01 63.
 	<section class="footer-inner container">
 		<div class="clear">
 			<div class="footer-column col-4-desktop">
-				<h3 class="footer-heading">Om Peter Gift</h3>
-				<p> Lambda's new and expanded Chelsea location represents a truly <strong>authentic</strong> Greek
-					patisserie, featuring breakfasts of fresh croissants and steaming bowls of caf&eacute;. </p>
+				<h3 class="footer-heading">Peter Gift</h3>
+				<p> Her er der plads til <strong>alle</strong>!</p>
 			</div>
 			<div class="footer-column col-4-desktop">
 				<h3 class="footer-heading">Åbnings tider</h3>
