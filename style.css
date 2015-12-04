@@ -1708,7 +1708,7 @@ img {
   background-color: rgba(255, 255, 255, 0.2);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff);
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff);
-  position: absolute;
+  position:absolute;
   bottom: 0;
   left: 0;
 }

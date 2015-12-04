@@ -281,9 +281,14 @@
 			<div class="reservation-block-img col-3-desktop none block-desktop"> <img src="img/food-01.jpg" alt="Food"> </div>
 			<div class="reservation-block-img col-6-tablet col-3-desktop none block-tablet"> <img src="img/food-02.jpg" alt="Food"> </div>
 			<div class="reservation-block-form col-6-tablet">
-				<div class="text-center">
-					<h2>Just the right food</h2>
-					<p> If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food </p>
+				<div class=".text-left">
+					<h2>BORD RESERVATION</h2>
+					<p> Reservationer i tidsrummet 12:00 - 15.00 er forbeholdt spisende gæster. <br>
+Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
+e-mail.<br>
+Selskaber fra 7 personer kan ikke booke bord online.<br>
+Venligst kontakt os på email info@petergift.dk eller på telefon 86 12 01 63.
+<br>Ved telefonisk henvendelse kontaktes vi bedst imellem 11.00 og 12.00 - 15.30 og 17.30.  </p>
 				</div>
 				<form class="reservations-form">
 					<fieldset>
