@@ -49,29 +49,29 @@
 				<table>
 					<tbody>
 						<tr>
-							<th colspan="2"><h5>Åbningstider:</h5></th>
+							<th colspan="2"><h5>Åbningstider</h5></th>
 						</tr>
 						<tr>
-							<td><p>Mandag-lørdag</p></td>
+							<td><p>Mandag-lørdag:</p></td>
 							<td><p>11:00-01:00</p></td>
 						</tr>
 						<tr>
-							<td><p>Søndag og helligdage</p></td>
+							<td><p>Søndag og helligdage:</p></td>
 							<td><p> 14:00-22:00</p></td>
 						</tr>
 						<tr>
-							<td colspan="2">Kig ind!</td>
+							<td colspan="2"></td>
 						</tr>
 						<tr>
-							<th colspan="2"><h5>Frokost køkken åbningstider:</h5></th>
+							<th colspan="2"><h5>Køkkenet</h5></th>
 						</tr>
 						<tr>
-							<td><p>Tirsdag-fredag</td>
+							<td><p>Tirsdag-fredag:</td>
 							<td>11:00-15:00
 								</p></td>
 						</tr>
 						<tr>
-							<td><p>Lørdagsbuffet </td>
+							<td><p>Lørdagsbuffet: </td>
 							<td> 12:00-15:00
 								</p></td>
 						</tr>
@@ -161,6 +161,7 @@
 						<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
 							e-mail.</p>
 						<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
+                        
 						<h5>KONTAKT OS</h5>
 						<p>Venligst kontakt os på e-mail info@petergift.dk eller på telefon 86 12 01 63.</p>
 						<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>

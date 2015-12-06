@@ -2,7 +2,7 @@
 	<div class="food-menu-block-inner container">
 		<div class="clear">
 			
-				<h2>Frokostmenu<br>
+				<h2 id="h2menu">Frokostmenu<br>
 					11:00 - 15:00<br>
 					Tirsdag til fredag</h2>
 					<h4>Alle retter serveres med brød og smør/fedt.</h4>
