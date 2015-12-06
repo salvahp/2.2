@@ -45,6 +45,7 @@
 		<div class="clear text-left">
 			<div id="infotext"  class="about-block-content col-6-desktop">
 				            
+<<<<<<< HEAD
 				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
                 <div id="text-petergift">
                 <p> <strong>Åbningstider:</strong><br>
@@ -54,6 +55,18 @@
                  <p><strong>Frokost køkken åbningstider:</strong><br>
 					Tirsdag-fredag 11:00-15:00<br>
 					Lørdag er der buffet fra 12:00-15:00</p>
+=======
+				<h2>M.P. Bruuns gade 28, <br>
+8000 Århus C</h2>
+                <div id="text-petergift">
+                <h5>Åbningstider:</h5>
+                	<p> Mandag-lørdag 11:00-01:00 <br>
+					Søndag og helligdage 14:00-22:00 <br>
+					Kig ind! </p>
+                 <h5>Frokost køkken åbningstider:</h5>
+					<p>Tirsdag-fredag 11:00-15:00<br>
+					Lørdag er der buffet fra 12:00-15:00</p><br>
+>>>>>>> origin/master
                 
                  <p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
 					Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
@@ -73,11 +86,11 @@
 <section id="ingredients" class="content-block ingredients-block">
 	<div class="ingredients-block-inner container clear">
 		<div class="feature-box text-center col-12 col-12-desktop right">
-			<h2 class="h2-secondary">Peter Gift Nyheder</h2>
+			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
-				<p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
-					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
-					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
+				<h6>JULEBUFFET</h6>
+                <p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december.
+                <br>OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>
                     <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
 					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
 					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
@@ -146,17 +159,17 @@
 <section id="reservations" class="content-block reservations-block">
 	<div class="reservations-block-inner container">
 		<div class="clear">
-        	<img src="img/mad_img.jpg" alt="Food">
+        	<img class="madbillede" src="img/mad_img.jpg" alt="Mad på Peter Gift">
 			
 			<div class="reservation-block-form col-5-tablet">
 				<div class=".text-left">
 					<div id="text-reservations">
-					<p> Reservationer i tidsrummet 12:00 - 15.00 er forbeholdt spisende gæster. <br>
-Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
-e-mail.<br>
-Selskaber fra 7 personer kan ikke booke bord online.<br>
-Venligst kontakt os på email info@petergift.dk eller på telefon 86 12 01 63.
-<br>Ved telefonisk henvendelse kontaktes vi bedst imellem 11.00 og 12.00 - 15.30 og 17.30.  </p>
+					<h5>RESERVATION</h5><p>I tidsrummet kl. 12:00 - 15.00 er reservationer forbeholdt spisende gæster.</p>
+<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
+e-mail.</p>
+<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
+<h5>KONTAKT OS</h5><p>Venligst kontakt os på e-mail <strong>info@petergift.dk</strong> eller på telefon <strong>86 12 01 63</strong>.</p>
+<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
 				</div>
                 </div>
                 </div>
