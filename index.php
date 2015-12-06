@@ -129,7 +129,8 @@
         <div class="feature-box text-center col-12-tablet col-8-desktop center-element">
 			<h2 class="h2-secondary">vores gæster siger om os</h2>
 			
-            <blockquote><ul id="fade">
+            <blockquote>
+            <ul id="fade">
 	<li><p> Mega hygge</p><cite> Gæst nr. 1 </cite></li>
 	
 	<li><p> pisse godt</p><cite> Gæst nr. 2 </cite> </li>
@@ -139,7 +140,8 @@
 	<li><p> kommer igen</p><cite> Gæst nr. 4 </cite> </li>
 
 	<li><p> nice sted</p><cite> Gæst nr. 5 </cite></li>
-</ul></blockquote>
+			</ul>
+            </blockquote>
         </div>
         
 	</div>

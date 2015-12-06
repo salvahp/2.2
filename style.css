@@ -150,6 +150,7 @@ h4,
 h5,
 .h5 {
   font-size: 16px;
+  font-size: 1rem;
   line-height: 22px;
   line-height: 1.375rem;
   margin-top: 1em;
@@ -159,12 +160,13 @@ h5,
 }
 h6,
 .h6 {
-  font-size: 16px;
+  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 20px;
   line-height: 1.25rem;
   margin-top: 1em;
   margin-bottom: .1em;
-  color:#FFF;
+  color: #d2bb87;
   font-weight: 400;
 }
 b,
@@ -2119,8 +2121,11 @@ img {
   animation-name: fadeInUp;
 }
 
+#fade {
+	text-decoration:none;}
+
 #text-reservations {
-	
+	padding-top:5%;
 	}
 .reservations-block {
   background: url(img/pw-maze-white.png) 0 0 repeat;
@@ -2135,11 +2140,6 @@ img {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-
-.madbillede {
-	margin-bottom: 5%;
-}
-	
 .reservations-block .field:focus {
   outline: 0;
   border-color: #c90;
