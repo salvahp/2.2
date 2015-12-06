@@ -113,7 +113,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#fade').list_ticker({
-			speed:2000,
+			speed:4000,
 			effect:'fade'
 		});
 		$('#slide').list_ticker({
@@ -128,7 +128,7 @@
 			<h2 class="h2-secondary">vores gæster siger om os</h2>
 			<blockquote>
 				<ul id="fade">
-					<li>
+					<li >
 						<p> "Hvis du har kommet her gennem 5 værters tid, så må man være en rigtig stamkunde!"</p>
 						<cite> Kjeld, 67 </cite></li>
 					<li>
