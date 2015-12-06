@@ -1,5 +1,6 @@
 body {
-	background-color: #3D5C44;
+	background: url("../../img/cream-pixels.png") 0, 0, repeat;
+	/*background-color: #3D5C44;*/
 	color: #ddd;
 }
 a {
@@ -34,16 +35,26 @@ p {	font-size: 1.2em;
 
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight: 100;
 	color: #fff;
+	margin-bottom:5%;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 100;
+	color: #fff;
+	
 }
 
 #wrapper {
-	width:80%;
+	width:90%;
 	margin: 0 auto;
 	padding:0 auto;
+
 	}
 	
 
@@ -55,19 +66,29 @@ h2 {
 	text-align:center;
 	}
 */
-.punkt {
-	
-	}
-	
+
 form {
-	width:65%;
+	width:100%;
 	margin: 0 auto;
+	clear:both;
+	
 	}
 
-.text {font-size:18px;}
-.price {font-size:18px;}
-.description {font-size:18px;}
+.formfelt {
+	width:45%;
+	margin:0 2% 5% 2%;
+	float:left;
+	border:thin solid #000000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.text { height:25px; display:block; font-size:18px; width:98%;  margin: 1% auto 5% auto; }
+.description { height:25px; display:block; font-size:18px; width:98%; margin: 1% auto 5% auto; }
+.price { height:25px; font-size:18px; width:20%; min-width:50px;}
+
 .button {
+	margin: 0 auto;
 	font-size:15px;
 	width: 150px;
 	height: 50px;
