@@ -45,14 +45,15 @@
 		<div class="clear text-left">
 			<div class="about-block-content col-6-desktop">
 				            
-				<h2>M.P. Bruuns gade 28, 8000 Århus C</h2>
+				<h2>M.P. Bruuns gade 28, <br>
+8000 Århus C</h2>
                 <div id="text-petergift">
-                <p> <strong>Åbningstider:</strong><br>
-                	Mandag-lørdag 11:00-01:00 <br>
+                <h5>Åbningstider:</h5>
+                	<p> Mandag-lørdag 11:00-01:00 <br>
 					Søndag og helligdage 14:00-22:00 <br>
 					Kig ind! </p>
-                 <p><strong>Frokost køkken åbningstider:</strong><br>
-					Tirsdag-fredag 11:00-15:00<br>
+                 <h5>Frokost køkken åbningstider:</h5>
+					<p>Tirsdag-fredag 11:00-15:00<br>
 					Lørdag er der buffet fra 12:00-15:00</p><br>
                 
                  <p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
