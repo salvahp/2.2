@@ -35,7 +35,7 @@
 		</div>
 	</header>
 	<div class="banner-inner container">
-		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2">PETER GIFT</span> </h1>
+		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2"><img src="img/pg_text_shadow.png"></span> </h1>
 		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book et bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
 	</div>
 </section>

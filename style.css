@@ -1848,6 +1848,7 @@ img {
 .about-block .about-chef {
   margin-top: 20px;
 }
+
 .about-block.active .about-block-content h2 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1858,6 +1859,18 @@ img {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
+
+.about-block.active .about-block-content h2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
 .about-block.active .about-block-content p {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
