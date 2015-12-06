@@ -166,7 +166,7 @@ h6,
   line-height: 1.25rem;
   margin-top: 1em;
   margin-bottom: .1em;
-  color: #d2bb87;
+  color: #FFF;
   font-weight: 400;
 }
 b,
@@ -291,6 +291,8 @@ caption {
   border-bottom: 1px solid #d7d7d7;
 }
 table {
+  font-size: 14px;
+  font-size: 0.875rem;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
@@ -303,9 +305,9 @@ table tfoot td,
 table thead th,
 table tbody th,
 table tfoot th {
-  color: ##abada2;
-  /*padding: .8em .5em;*/
-  
+  color: #585858;
+  padding: .8em .5em;
+  border-bottom: 1px solid #e9e9e9;
 }
 code,
 kbd,
@@ -2123,8 +2125,8 @@ img {
 	text-decoration:none;}
 
 #text-reservations {
-	padding-top:5%;
 	}
+	
 .reservations-block {
   background: url(img/pw-maze-white.png) 0 0 repeat;
 }
