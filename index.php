@@ -44,17 +44,9 @@
 	<div class="about-block-inner container">
 		<div class="clear text-left">
 			<div id="infotext"  class="about-block-content col-6-desktop">
-<<<<<<< HEAD
-<<<<<<< HEAD
-				            
-				<h2>M.P. Bruuns gade 28, <br>
-8000 Århus C</h2>
-=======
+
 				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
->>>>>>> origin/master
-=======
-				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
->>>>>>> origin/master
+
                 <div id="text-petergift">
                 <h5>Åbningstider:</h5>
                 	<p> Mandag-lørdag 11:00-01:00 <br>
@@ -63,14 +55,7 @@
                  <h5>Frokost køkken åbningstider:</h5>
 					<p>Tirsdag-fredag 11:00-15:00<br>
 					Lørdag er der buffet fra 12:00-15:00</p><br>
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-                
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
                  <p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
 					Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
                     pejsen. Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
