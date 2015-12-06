@@ -89,15 +89,10 @@
 			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
 				<h6>JULEBUFFET</h6>
-                <p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december.
-                <br>OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>
-                    <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
-					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
-					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
-                    <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
-					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
-					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
-				
+                <p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december. 
+                <br>Vi serverer alt fra marinerede sild, tarteletter og andebryst til risalamande med kirsebærsovs. 
+                <br>Buffeten byder på 11 forskellige retter med brød, og du får det hele til 198 kr. pr. person.
+                <br>OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>	
 			</div>
                      
             
@@ -168,7 +163,7 @@
 <p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
 e-mail.</p>
 <p>Selskaber fra 7 personer kan ikke booke bord online.</p>
-<h5>KONTAKT OS</h5><p>Venligst kontakt os på e-mail <strong>info@petergift.dk</strong> eller på telefon <strong>86 12 01 63</strong>.</p>
+<h5>KONTAKT OS</h5><p>Venligst kontakt os på e-mail info@petergift.dk eller på telefon 86 12 01 63.</p>
 <p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
 				</div>
                 </div>
