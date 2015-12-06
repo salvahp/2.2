@@ -2144,7 +2144,7 @@ img {
 }
 
 #text-reservations {
-	padding-top:5%;
+	
 	}
 .reservations-block {
   background: url(img/pw-maze-white.png) 0 0 repeat;
@@ -2159,6 +2159,11 @@ img {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
+.madbillede {
+	margin-bottom: 5%;
+}
+	
 .reservations-block .field:focus {
   outline: 0;
   border-color: #c90;

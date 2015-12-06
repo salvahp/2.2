@@ -115,17 +115,17 @@
 <section id="reservations" class="content-block reservations-block">
 	<div class="reservations-block-inner container">
 		<div class="clear">
-        	<img src="img/mad_img.jpg" alt="Food">
+        	<img class="madbillede" src="img/mad_img.jpg" alt="Mad på Peter Gift">
 			
 			<div class="reservation-block-form col-5-tablet">
 				<div class=".text-left">
 					<div id="text-reservations">
-					<p> Reservationer i tidsrummet 12:00 - 15.00 er forbeholdt spisende gæster. <br>
-Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
-e-mail.<br>
-Selskaber fra 7 personer kan ikke booke bord online.<br>
-Venligst kontakt os på email info@petergift.dk eller på telefon 86 12 01 63.
-<br>Ved telefonisk henvendelse kontaktes vi bedst imellem 11.00 og 12.00 - 15.30 og 17.30.  </p>
+					<h5>RESERVATION</h5><p>I tidsrummet kl. 12:00 - 15.00 er reservationer forbeholdt spisende gæster.</p>
+<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
+e-mail.</p>
+<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
+<h5>KONTAKT OS</h5><p>Venligst kontakt os på e-mail <strong>info@petergift.dk</strong> eller på telefon <strong>86 12 01 63</strong>.</p>
+<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
 				</div>
                 </div>
                 </div>
