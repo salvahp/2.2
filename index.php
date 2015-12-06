@@ -46,15 +46,6 @@
 			<div id="infotext"  class="about-block-content col-6-desktop">
 				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
                 <div id="text-petergift">
-                <p> <strong>Åbningstider:</strong><br>
-                	Mandag-lørdag 11:00-01:00 <br>
-					Søndag og helligdage 14:00-22:00 <br></p>
-                    
-                 <p><strong>Frokost køkken åbningstider:</strong><br>
-					Tirsdag-fredag 11:00-15:00<br>
-					Lørdag er der buffet fra 12:00-15:00</p>
-				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
-                <div id="text-petergift">
                 <h5>Åbningstider:</h5>
                 	<p> Mandag-lørdag 11:00-01:00 <br>
 					Søndag og helligdage 14:00-22:00 <br>
