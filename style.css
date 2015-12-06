@@ -137,7 +137,7 @@ h3,
 }
 h4,
 .h4 {
-	text-align:center;
+  text-align:center;
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 24px;
@@ -2130,6 +2130,11 @@ img {
 .reservations-block {
   background: url(img/pw-maze-white.png) 0 0 repeat;
 }
+
+.madbillede {
+	margin-bottom: 5%;
+}
+
 .reservations-block .field {
   border: 1px solid #ccc;
   background-color: #fff;
