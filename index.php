@@ -15,57 +15,77 @@
 <body>
 <!--header 1 start -->
 <section class="banner">
-<header class="header">
-	<div class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
-		<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
-		<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
-		<nav class="navigation">
-			<ul class="navigation-menu">
-				<li class="navigation-item"><a href="#about">Info</a></li>
-				<li class="navigation-item"><a href="#ingredients">Nyheder</a></li>
-				<li class="navigation-item"><a href="#menu">Menu</a></li>
-				<li class="navigation-item"><a href="#reviews">Udtalelser</a></li>
-				<li class="navigation-item"><a href="#reservations">Book et bord</a></li>
-			</ul>
-			<ul class="navigation-social">
-				<li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
-				<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
-			</ul>
-		</nav>
+	<header class="header">
+		<div class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
+			<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
+			<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
+			<nav class="navigation">
+				<ul class="navigation-menu">
+					<li class="navigation-item"><a href="#about">Info</a></li>
+					<li class="navigation-item"><a href="#ingredients">Nyheder</a></li>
+					<li class="navigation-item"><a href="#menu">Menu</a></li>
+					<li class="navigation-item"><a href="#reviews">Udtalelser</a></li>
+					<li class="navigation-item"><a href="#reservations">Book et bord</a></li>
+				</ul>
+				<ul class="navigation-social">
+					<li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
+					<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="banner-inner container">
+		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2">PETER GIFT</span> </h1>
+		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book et bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
 	</div>
-</header>
-<div class="banner-inner container">
-	<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2">PETER GIFT</span> </h1>
-	<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book et bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
-</div>
 </section>
 <!-- Åbningstider  -->
 <section id="about" class="content-block about-block">
 	<div class="about-block-inner container">
 		<div class="clear text-left">
 			<div class="about-block-content col-6-desktop">
-				            
-				<h2>M.P. Bruuns gade 28, <br>
-8000 Århus C</h2>
-                <div id="text-petergift">
-                <h5>Åbningstider:</h5>
-                	<p> Mandag-lørdag 11:00-01:00 <br>
-					Søndag og helligdage 14:00-22:00 <br>
-					Kig ind! </p>
-                 <h5>Frokost køkken åbningstider:</h5>
-					<p>Tirsdag-fredag 11:00-15:00<br>
-					Lørdag er der buffet fra 12:00-15:00</p><br>
-                
-                 <p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
-					Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
-                    pejsen. Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
-                    glas velskænket ROYAL.
- 				</p>
-                </div>
-				
-                
-                
-                 </div>
+				<h2>M.P. Bruuns gade 28,<br>
+					8000 Århus C</h2>
+				<div id="text-petergift">
+					<table>
+						<tbody>
+							<tr>
+								<th colspan="2"><h5>Åbningstider:</h5></th>
+							</tr>
+							<tr>
+								<td><p>Mandag-lørdag</p></td>
+								<td><p>11:00-01:00</p></td>
+							</tr>
+							<tr>
+								<td><p>Søndag og helligdage</p></td>
+								<td><p>14:00-22:00</p></td>
+							</tr>
+							<tr>
+								<td><p>Kig ind!</p></td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<tbody>
+							<tr>
+								<th colspan="2"><h5>Frokost køkken åbningstider:</h5></th>
+							</tr>
+							<tr>
+								<td><p>Tirsdag-fredag</p></td>
+								<td><p>11:00-15:00</p></td>
+							</tr>
+							<tr>
+								<td><p>Lørdagsbuffet</p></td>
+								<td><p>12:00-15:00</p></td>
+							</tr>
+						</tbody>
+					</table>
+					<p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
+						Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
+						pejsen. Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
+						glas velskænket ROYAL. </p>
+				</div>
+			</div>
 			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Dish of food"> </div>
 		</div>
 	</div>
@@ -77,18 +97,15 @@
 			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
 				<h6>JULEBUFFET</h6>
-                <p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december.
-                <br>OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>
-                    <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
+				<p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december. <br>
+					OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>
+				<p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
 					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
 					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
-                    <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
+				<p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
 					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
 					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
-				
 			</div>
-                     
-            
 		</div>
 	</div>
 </section>
@@ -98,44 +115,41 @@
 
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
-		
-        <div class="feature-box text-center col-12-tablet col-8-desktop center-element">
+		<div class="feature-box text-center col-12-tablet col-8-desktop center-element">
 			<h2 class="h2-secondary">Guest Reviews</h2>
 			<blockquote>
 				<p> If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more.
 					Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees makes us hard to resist!
 					Stop in today and check us out! </p>
 				<cite> food inc, New York </cite> </blockquote>
-             </div>
-        
+		</div>
 	</div>
 </section>
-
 
 <!--reservationer-->
 <section id="reservations" class="content-block reservations-block">
 	<div class="reservations-block-inner container">
-		<div class="clear">
-        	<img class="madbillede" src="img/mad_img.jpg" alt="Mad på Peter Gift">
-			
+		<div class="clear"> <img class="madbillede" src="img/mad_img.jpg" alt="Mad på Peter Gift">
 			<div class="reservation-block-form col-5-tablet">
 				<div class=".text-left">
 					<div id="text-reservations">
-					<h5>RESERVATION</h5><p>I tidsrummet kl. 12:00 - 15.00 er reservationer forbeholdt spisende gæster.</p>
-<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
-e-mail.</p>
-<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
-<h5>KONTAKT OS</h5><p>Venligst kontakt os på e-mail <strong>info@petergift.dk</strong> eller på telefon <strong>86 12 01 63</strong>.</p>
-<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
+						<h5>RESERVATION</h5>
+						<p>I tidsrummet kl. 12:00 - 15.00 er reservationer forbeholdt spisende gæster.</p>
+						<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
+							e-mail.</p>
+						<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
+						<h5>KONTAKT OS</h5>
+						<p>Venligst kontakt os på e-mail <strong>info@petergift.dk</strong> eller på telefon <strong>86 12 01 63</strong>.</p>
+						<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
+					</div>
 				</div>
-                </div>
-                </div>
-                <div class="reservation-block-form col-7-tablet">
+			</div>
+			<div class="reservation-block-form col-7-tablet">
 				<form class="reservations-form">
 					<fieldset>
 						<legend class="sr">Contact Us</legend>
 						<div class="clear">
-                        <h2>BORD RESERVATION</h2>
+							<h2>BORD RESERVATION</h2>
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="name">Navn</label>
 								<input name="full-name" class="field" id="name" type="text" placeholder="Dit navn *">
@@ -163,7 +177,6 @@ e-mail.</p>
 								</select>
 								</span> </div>
 						</div>
-                        
 						<div class="text-center">
 							<input type="submit" class="button reservations-submit" value="Book!">
 						</div>
@@ -179,7 +192,8 @@ e-mail.</p>
 		<div class="clear">
 			<div class="footer-column col-4-desktop">
 				<h3 class="footer-heading">Peter Gift</h3>
-				<p> Kig ind - <br>Her er der plads til <strong>alle</strong>!</p>
+				<p> Kig ind - <br>
+					Her er der plads til <strong>alle</strong>!</p>
 			</div>
 			<div class="footer-column col-4-desktop">
 				<h3 class="footer-heading">Åbnings tider</h3>
