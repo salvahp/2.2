@@ -73,11 +73,11 @@
 <section id="ingredients" class="content-block ingredients-block">
 	<div class="ingredients-block-inner container clear">
 		<div class="feature-box text-center col-12 col-12-desktop right">
-			<h2 class="h2-secondary">Peter Gift Nyheder</h2>
+			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
-				<p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
-					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
-					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
+				<h6>JULEBUFFET</h6>
+                <p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december.
+                <br>OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>
                     <p> Her skal der være nyheder, f.eks. forskellige tilbud. evt. Jule menuen <br>
 					Nyhederne skifter hver gang der kommer et nyt tiltag <br>
 					Når julen er slut, kan der stå et andet tilbud! f.eks. et tilbud der er der hele året, så det ikke skal skiftes hele tiden. </p>
