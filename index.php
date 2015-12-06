@@ -129,20 +129,20 @@
 			<blockquote>
 				<ul id="fade">
 					<li>
-						<p> Mega hygge</p>
-						<cite> Gæst nr. 1 </cite></li>
+						<p> "Hvis du har kommet her gennem 5 værters tid, så må man være en rigtig stamkunde!"</p>
+						<cite> Kjeld, 67 </cite></li>
 					<li>
-						<p> pisse godt</p>
-						<cite> Gæst nr. 2 </cite> </li>
+						<p> "Det eneste sted i Århus, hvor du kan få en rigtig velskænket øl ..."</p>
+						<cite> Niklas, 25</cite> </li>
 					<li>
-						<p> dejligt sted</p>
-						<cite> Gæst nr. 3 </cite> </li>
+						<p> "Man føler sig altid velkommen på Peter Gift ..."</p>
+						<cite> Gitte, 43 </cite> </li>
 					<li>
-						<p> kommer igen</p>
-						<cite> Gæst nr. 4 </cite> </li>
+						<p>"Peter Gift er ikke bare en caffé, her er der mere hyggeligt" </p>
+						<cite> Sofie, 23 </cite> </li>
 					<li>
-						<p> nice sted</p>
-						<cite> Gæst nr. 5 </cite></li>
+						<p>"Jeg tænker altid på næste gang jeg skal ned på Peter Gift" </p>
+						<cite> Lotte, 35 </cite></li>
 				</ul>
 			</blockquote>
 		</div>
