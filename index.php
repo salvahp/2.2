@@ -43,17 +43,17 @@
 <section id="about" class="content-block about-block">
 	<div class="about-block-inner container">
 		<div class="clear text-left">
-			<div class="about-block-content col-6-desktop">
+			<div id="infotext"  class="about-block-content col-6-desktop">
 				            
-				<h2>M.P. Bruuns gade 28, 8000 Århus C</h2>
+				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
                 <div id="text-petergift">
                 <p> <strong>Åbningstider:</strong><br>
                 	Mandag-lørdag 11:00-01:00 <br>
-					Søndag og helligdage 14:00-22:00 <br>
-					Kig ind! </p>
+					Søndag og helligdage 14:00-22:00 <br></p>
+                    
                  <p><strong>Frokost køkken åbningstider:</strong><br>
 					Tirsdag-fredag 11:00-15:00<br>
-					Lørdag er der buffet fra 12:00-15:00</p><br>
+					Lørdag er der buffet fra 12:00-15:00</p>
                 
                  <p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
 					Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
@@ -93,22 +93,53 @@
 </section>
 <!--menukort-->
 <?php include "admin/includes/samletmenu.php"; ?>
-<!--gæster siger -->
 
+
+
+
+
+<!--gæster siger//Guest reviews -->
+	
+	<script type="text/javascript" src="js/jquery00.js"></script>
+	<script type="text/javascript" src="js/ticker00.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#fade').list_ticker({
+			speed:2000,
+			effect:'fade'
+		});
+		$('#slide').list_ticker({
+			speed:2000,
+			effect:'slide'
+		});		
+	})
+	</script>
+    
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
 		
         <div class="feature-box text-center col-12-tablet col-8-desktop center-element">
-			<h2 class="h2-secondary">Guest Reviews</h2>
-			<blockquote>
-				<p> If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more.
-					Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees makes us hard to resist!
-					Stop in today and check us out! </p>
-				<cite> food inc, New York </cite> </blockquote>
-             </div>
+			<h2 class="h2-secondary">vores gæster siger om os</h2>
+			
+            <blockquote><ul id="fade">
+	<li><p> Mega hygge</p><cite> Gæst nr. 1 </cite></li>
+	
+	<li><p> pisse godt</p><cite> Gæst nr. 2 </cite> </li>
+	
+    <li><p> dejligt sted</p><cite> Gæst nr. 3 </cite> </li>
+
+	<li><p> kommer igen</p><cite> Gæst nr. 4 </cite> </li>
+
+	<li><p> nice sted</p><cite> Gæst nr. 5 </cite></li>
+</ul></blockquote>
+        </div>
         
 	</div>
 </section>
+
+
+
+
 
 
 <!--reservationer-->

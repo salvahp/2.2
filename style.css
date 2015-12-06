@@ -1865,8 +1865,18 @@ img {
 #text-petergift {
 	color:#abada2;
 	
-	
 }
+
+/*
+#infotext {
+	width:48%;
+	margin:0 1% 1% 1%;
+	padding:2% 2% 2% 2%;
+	
+	background-color: rgba(0, 0, 0, 0.3);}
+	*/
+
+
 .about-block {
   background: url(img/contemporary-china.png) 0 0 repeat;
 }
