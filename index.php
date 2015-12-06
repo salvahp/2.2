@@ -15,8 +15,8 @@
 <body>
 <!--header 1 start -->
 <section class="banner">
-	<header class="header">
-		<div class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
+	<header id="header" class="header">
+		<div  class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
 			<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
 			<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
 			<nav class="navigation">

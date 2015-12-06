@@ -63,6 +63,12 @@ svg:not(:root) {
   overflow: hidden;
 }
 /*Body*/
+
+#header {
+	position:fixed;
+	z-index: 8;}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
