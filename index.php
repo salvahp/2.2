@@ -20,7 +20,7 @@
 			<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
 			<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
 			<nav class="navigation">
-				<ul class="navigation-menu">
+				<ul id="navtext" class="navigation-menu">
 					<li class="navigation-item"><a href="#about">Info</a></li>
 					<li class="navigation-item"><a href="#ingredients">Nyheder</a></li>
 					<li class="navigation-item"><a href="#menu">Menu</a></li>

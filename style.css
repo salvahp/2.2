@@ -66,7 +66,9 @@ svg:not(:root) {
 
 #header {
 	position:fixed;
-	z-index: 8;}
+	z-index: 8;
+	width:100%;
+	}
 
 
 body {
@@ -86,11 +88,20 @@ a {
   color: #abada2;
   background: transparent;
   text-decoration: underline;
+  
 }
-a:active,
+
+#navtext{
+	font-size:24px;
+	text-align:center;
+	}
+
+
+a:active{}
+
 a:hover {
   outline: 0;
-  text-decoration: none;
+  color:#abada2;
 }
 /* tekst */
 h1,
@@ -1760,6 +1771,7 @@ img {
 }
 .navigation {
   clear: both;
+  width:100%;
 }
 .navigation {
   -webkit-transition: all 0.3s;
@@ -1790,9 +1802,6 @@ img {
 .navigation-menu .navigation-item > a {
   font-family: "Yeseva One", cursive;
   font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 24px;
-  line-height: 1.5rem;
   margin-top: 1em;
   margin-bottom: .2em;
   color: #c90;
@@ -2287,7 +2296,7 @@ img {
     padding: 50px 60px;
   }
   .header {
-    background: transparent;
+    background: #3d5c44;
     opacity: .9;
     padding-bottom: 20px;
   }
@@ -2349,10 +2358,9 @@ img {
   }
   .navigation-menu .navigation-item > a {
     font-family: "Yeseva One", cursive;
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 22px;
-    line-height: 1.375rem;
+    font-size: 18px;
+    
+
     margin-top: 1em;
     margin-bottom: .1em;
     color: #c90;
