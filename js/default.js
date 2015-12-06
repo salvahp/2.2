@@ -1,9 +1,5 @@
 // Default JavaScript Functions and Initiations
 
-
-
-
-
 // Setup WOW.js
 var wow = new WOW({
   boxClass:     'content-block',
@@ -21,9 +17,3 @@ WebFont.load({
     families: ['Open Sans:400,700', 'Yeseva One:400']
   }
 });
-
-
-
-
-// Her script til guest reviews
-
