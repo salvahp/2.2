@@ -45,9 +45,13 @@
 		<div class="clear text-left">
 			<div id="infotext"  class="about-block-content col-6-desktop">
 <<<<<<< HEAD
+<<<<<<< HEAD
 				            
 				<h2>M.P. Bruuns gade 28, <br>
 8000 Århus C</h2>
+=======
+				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
+>>>>>>> origin/master
 =======
 				<h2>M.P. Bruuns gade 28, <br>8000 Århus C</h2>
 >>>>>>> origin/master
@@ -60,8 +64,11 @@
 					<p>Tirsdag-fredag 11:00-15:00<br>
 					Lørdag er der buffet fra 12:00-15:00</p><br>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
                  <p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
