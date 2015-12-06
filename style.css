@@ -606,10 +606,10 @@ h2:after,
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#00ffffff);
 }
 .feature-box {
-  padding: 20px 10px;
+  padding: 0px 0px;
   color: #fff;
   background-color: #000;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
 }
