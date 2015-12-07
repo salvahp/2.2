@@ -19,6 +19,7 @@ $file = new FileSystem;
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <title>Rediger Nyheder</title>
+<meta name="robots" content="noindex, nofollow">
 </head>
 
 <body>
