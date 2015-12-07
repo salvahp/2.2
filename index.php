@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Peter Gift</title>
+<meta name="robots" content="noindex, nofollow"> 
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="img/h_fabicon.png">
@@ -13,10 +14,9 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--header 1 start -->
-<section id="banner" class="banner">
-<header id="header" class="header">
-		<div  class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
+<!-- navigation start -->
+
+<div id="banner" class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
 			<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
 			<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
 			<nav class="navigation">
@@ -33,7 +33,10 @@
 				</ul>
 			</nav>
 		</div>
-	</header>
+<!-- navigation slut -->
+<!--header 1 start -->
+<section  class="banner">
+
     	
 	<div class="banner-inner container">
 		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2"><img src="img/logo_hero_pg.png"></span> </h1>
