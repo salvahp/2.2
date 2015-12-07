@@ -14,8 +14,8 @@
 </head>
 <body>
 <!--header 1 start -->
-<section class="banner">
-	<header id="header" class="header">
+<section id="banner" class="banner">
+<header id="header" class="header">
 		<div  class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
 			<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
 			<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
@@ -34,8 +34,9 @@
 			</nav>
 		</div>
 	</header>
+    	
 	<div class="banner-inner container">
-		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2"><img src="img/pg_text_shadow.png"></span> </h1>
+		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2"><img src="img/logo_hero_pg.png"></span> </h1>
 		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book et bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
 	</div>
 </section>
@@ -94,9 +95,10 @@
 		<div class="feature-box text-center col-12 col-12-desktop right">
 			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
-				<h6>JULEBUFFET</h6>
+				<h6>JULEBUFFET</h6><br>
 				<p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december. <br>
 					Vi serverer alt fra marinerede sild, tarteletter og andebryst til risalamande med kirsebærsovs. <br>
+                    <br>
 					Buffeten byder på 11 forskellige retter med brød, og du får det hele til 198 kr. pr. person. <br>
 					OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>
 			</div>
@@ -124,7 +126,7 @@
 	</script>
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
-		<div class="feature-box text-center col-12-tablet col-8-desktop center-element">
+		<div id="reviewsbox" class="feature-box text-center col-12-tablet col-8-desktop center-element">
 			<h2 class="h2-secondary">vores gæster siger om os</h2>
 			<blockquote>
 				<ul id="fade">
