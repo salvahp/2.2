@@ -14,6 +14,10 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php include_once("analyticstracking.php") ?>
+<script src="js/vendor/wow.js"></script> 
+<script src="js/vendor/webfontloader.js"></script> 
+<script src="js/default.js"></script>
 <!-- navigation start -->
 
 <div id="banner" class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
@@ -127,7 +131,7 @@
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
 		<div id="reviewsbox" class="feature-box text-center col-12-tablet col-8-desktop center-element">
-			<h2 class="h2-secondary">vores gæster siger om os</h2>
+			<h2 class="h2-secondary">Vores gæster siger </h2>
 			<blockquote>
 				<ul id="fade">
 					<li >
@@ -238,8 +242,6 @@
 		</div>
 	</section>
 </footer>
-<script src="js/vendor/wow.js"></script> 
-<script src="js/vendor/webfontloader.js"></script> 
-<script src="js/default.js"></script>
+
 </body>
 </html>
