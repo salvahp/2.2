@@ -1,12 +1,12 @@
 <?php 
-/*
+
 // tjekker om der er logget ind
 session_start();
 if (!$_SESSION["loggedin"]){
 	header ("Location:login.php");
 	exit ();
 	}
-*/
+
 
 // Load in the file system class
 include 'processes/filesystem.class2.php';
