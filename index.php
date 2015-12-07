@@ -48,7 +48,7 @@
 	<div class="about-block-inner container">
 		<div class="clear text-left">
 			<div id="infotext"  class="about-block-content col-6-desktop">
-				<h2>M.P. Bruuns gade 28, <br>
+				<h2>M.P. Bruunsgade 28, <br>
 					8000 Århus C</h2>
 				<table>
 					<tbody>
@@ -131,19 +131,19 @@
 			<blockquote>
 				<ul id="fade">
 					<li >
-						<p> "Hvis du har kommet her gennem 5 værters tid, så må man være en rigtig stamkunde!"</p>
+						<p> "Nu har jeg kommet her gennem 5 værters tid, så må man da være en rigtig stamkunde! Det er ihvertfald sådan jeg vil betegne mig selv. Èn gang på Peter Gift og jeg var solgt .."</p>
 						<cite> Kjeld, 67 </cite></li>
 					<li>
-						<p> "Det eneste sted i Århus, hvor du kan få en rigtig velskænket øl ..."</p>
+						<p> "Det eneste sted i Århus, hvor du kan få en rigtig velskænket øl ... Kvaliteten er altid i top når man besøger Peter Gift - Prøv det selv!"</p>
 						<cite> Niklas, 25</cite> </li>
 					<li>
-						<p> "Man føler sig altid velkommen på Peter Gift ..."</p>
+						<p> "Man føler sig altid velkommen på Peter Gift, det er som én stor familie når man besøger det hyggelige værtshus i Bruunsgade ..."</p>
 						<cite> Gitte, 43 </cite> </li>
 					<li>
-						<p>"Peter Gift er ikke bare en caffé, her er der mere hyggeligt" </p>
+						<p>"Peter Gift er ikke bare en café, her er der mere hyggeligt. Efter min personlige mening, er det det bedste værtshus i byen - Hvilket AOA jo har givet mig ret i gennem 7 år ..." </p>
 						<cite> Sofie, 23 </cite> </li>
 					<li>
-						<p>"Jeg tænker altid på næste gang jeg skal ned på Peter Gift" </p>
+						<p>"Jeg tænker altid på næste gang jeg skal ned på Peter Gift, det er simpelthen bare så hyggeligt og gårdhaven er lige mig, om sommeren er der intet bedre!" </p>
 						<cite> Lotte, 35 </cite></li>
 				</ul>
 			</blockquote>
@@ -228,7 +228,7 @@
 			</div>
 			<div class="footer-column col-4-desktop">
 				<h3 class="footer-heading">Her er vi </h3>
-				<p>M. P. Bruuns Gade 28 </p>
+				<p>M. P. Bruunsgade 28 </p>
 				<p>8000 Århus C</p>
 				<ul class="footer-social-list icon-list-inline">
 					<li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
