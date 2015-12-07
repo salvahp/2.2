@@ -479,7 +479,7 @@ input::-moz-focus-inner {
   background: #fff;
 }
 .button-link {
-  color: #c90;
+  color: #672b2a ;
   text-decoration: underline;
   border: 0;
   background: transparent;
@@ -584,7 +584,7 @@ h2:after,
   padding: 1em 3em;
   text-decoration: none;
   border: 1px solid transparent;
-  background: #c90;
+  background: #672b2a;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
