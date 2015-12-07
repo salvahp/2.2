@@ -95,17 +95,9 @@
 		<div class="feature-box text-center col-12 col-12-desktop right">
 			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
-<<<<<<< HEAD
+
 				<h6><?php include "admin/includes/nyheder/nyhedstitel.html"; ?></h6>
 				<p> <?php include "admin/includes/nyheder/nyhedstekst.html"; ?></p>
-=======
-				<h6>JULEBUFFET</h6><br>
-				<p> Kom ned til os og prøv vores store julebuffet, som vi har fra d. 17. november til d. 28. december. <br>
-					Vi serverer alt fra marinerede sild, tarteletter og andebryst til risalamande med kirsebærsovs. <br>
-                    <br>
-					Buffeten byder på 11 forskellige retter med brød, og du får det hele til 198 kr. pr. person. <br>
-					OBS! Vi serverer ikke fra vores a la carte menu i samme periode.</p>
->>>>>>> origin/master
 			</div>
 		</div>
 	</div>
