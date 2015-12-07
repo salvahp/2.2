@@ -23,6 +23,16 @@ $file = new FileSystem;
 
 <body>
 <div id="wrapper">
+<header>
+<div id="navigation">
+	<ul>
+    	<li><a href="admin.php"> Menukort</a></li>
+        <li><a href="nyheder.php"> Nyheder</a></li>
+    </ul>
+</div>
+
+</header>
+
 	<section>
 		<h1>Rediger Menukort</h1>
 		<p>Her redigeres i Menukortet på Peter Gift hjemmesiden. <!-- Punkterne gemmes enkeltvis--></p>
@@ -36,8 +46,8 @@ $file = new FileSystem;
 				// Læs menupunkt
 				$filename = "includes/menukort/menukort_1.html";
 				echo($file->read($filename));
-			?>
-</textarea>
+				?>
+				</textarea>
 				<h3>Beskrivelse</h3>
 				<textarea class="description" name="description1" ><?php			
 				// læs beskrivelse
