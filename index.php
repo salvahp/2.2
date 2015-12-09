@@ -64,7 +64,7 @@
 						<tr itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
 							<td><span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek"><p itemprop="name">Mandag-lørdag:</p></span></td>
 							<td><p>
-<span itemprop="opens">11:00</span>-
+<span itemprop="opens">11:00</span> - 
 <span itemprop="closes">01:00</span></p></td>
 						</tr>
 						<tr itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
@@ -72,7 +72,7 @@
 <span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">
 <span itemprop="name">Søndag og helligdage</span></span>:</p></td>
 							<td><p> 
-<span itemprop="opens">14:00</span>-
+<span itemprop="opens">14:00</span> - 
 <span itemprop="closes">22:00</span></p></td>
 						</tr>
 						<tr>
@@ -83,12 +83,12 @@
 						</tr>
 						<tr>
 							<td><p>Tirsdag-fredag:</td>
-							<td>11:00-15:00
+							<td>11:00 - 15:00
 								</p></td>
 						</tr>
 						<tr>
 							<td><p>Lørdagsbuffet: </td>
-							<td> 12:00-15:00
+							<td> 12:00 - 15:00
 								</p></td>
 						</tr>
 					</tbody>

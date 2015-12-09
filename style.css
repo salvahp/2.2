@@ -1964,6 +1964,7 @@ img {
   animation-delay: 0.4s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  
 }
 .ingredients-block.active .feature-box h2 {
   -webkit-animation-duration: 1s;
@@ -2154,6 +2155,10 @@ img {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+
+.feature-box {
+	border-radius:25px;
+	}
 
 #reviewsbox {
 	}
