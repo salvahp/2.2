@@ -200,7 +200,7 @@
 						<div class="clear">
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="date">Dato</label>
-								<input name="date-of-booking" class="field" id="date" type="text" placeholder="dato *">
+								<input name="date-of-booking" class="field" id="date" type="date" placeholder="dato *">
 							</div>
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="party-size">Antal personer</label>
