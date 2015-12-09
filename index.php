@@ -13,8 +13,10 @@
 <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <?php include_once("analyticstracking.php") ?>
+
 <script src="js/vendor/wow.js"></script> 
 <script src="js/vendor/webfontloader.js"></script> 
 <script src="js/default.js"></script>
@@ -131,7 +133,7 @@
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
 		<div id="reviewsbox" class="feature-box text-center col-12-tablet col-8-desktop center-element">
-			<h2 class="h2-secondary">Vores gæster siger </h2>
+			<h2 class="h2-secondary">Vores gæster siger</h2>
 			<blockquote>
 				<ul id="fade">
 					<li >
@@ -243,5 +245,15 @@
 	</section>
 </footer>
 
+<!--MOUSEFLOW-->
+    <script type="text/javascript">
+        var _mfq = _mfq || [];
+        (function () {
+        var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+        mf.src = "//cdn.mouseflow.com/projects/13019fdb-92c9-4071-a43c-b58c554a75c2.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+    </script>
+    
 </body>
 </html>
