@@ -101,11 +101,7 @@
 						glas velskænket ROYAL. </p>
 				</div>
 			</div>
-<<<<<<< HEAD
-			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Peter Gift Logo"> </div>
-=======
-			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img itemprop="image" src="img/petergift_logo.png" alt="Dish of food"> </div>
->>>>>>> origin/master
+			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img itemprop="image" src="img/petergift_logo.png" alt="Peter Gift logo"> </div>
 		</div>
 	</div>
 </section>
@@ -263,7 +259,6 @@
         mf.src = "//cdn.mouseflow.com/projects/13019fdb-92c9-4071-a43c-b58c554a75c2.js";
         document.getElementsByTagName("head")[0].appendChild(mf);
       })();
-<<<<<<< HEAD
     </script> 
 
 <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
@@ -289,9 +284,5 @@
 		});	
 </script>
 
-=======
-    </script>
-   
->>>>>>> origin/master
 </body>
 </html>
