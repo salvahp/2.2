@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Mikrodatamarkering tilføjet af Google Markeringsværktøj til strukturerede data. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -7,6 +8,7 @@
 <meta name="robots" content="noindex, nofollow"> 
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta itemprop="url" content="http://www.avejle.dk/petergift">
 <link rel="shortcut icon" href="img/h_fabicon.png">
 <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
@@ -50,24 +52,32 @@
 	</div>
 </section>
 <!-- Åbningstider  -->
+<span itemscope itemtype="http://schema.org/LocalBusiness">
 <section id="about" class="content-block about-block">
 	<div class="about-block-inner container">
 		<div class="clear text-left">
 			<div id="infotext"  class="about-block-content col-6-desktop">
-				<h2>M.P. Bruunsgade 28, <br>
-					8000 Århus C</h2>
+				<h2 itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">M.P. Bruunsgade 28,</span> <br>
+					<span itemprop="postalCode">8000</span><span itemprop="addressLocality"> Århus C</span></h2>
 				<table>
 					<tbody>
 						<tr>
 							<th colspan="2"><h5>Åbningstider</h5></th>
 						</tr>
-						<tr>
-							<td><p>Mandag-lørdag:</p></td>
-							<td><p>11:00-01:00</p></td>
+						<tr itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+							<td><span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek"><p itemprop="name">Mandag-lørdag:</p></span></td>
+							<td><p>
+<span itemprop="opens">11:00</span>-
+<span itemprop="closes">01:00</span></p></td>
 						</tr>
-						<tr>
-							<td><p>Søndag og helligdage:</p></td>
-							<td><p> 14:00-22:00</p></td>
+						<tr itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+							<td><p>
+<span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">
+<span itemprop="name">Søndag og helligdage</span></span>:</p></td>
+							<td><p> 
+<span itemprop="opens">14:00</span>-
+<span itemprop="closes">22:00</span></p></td>
 						</tr>
 						<tr>
 							<td colspan="2"></td>
@@ -94,7 +104,7 @@
 						glas velskænket ROYAL. </p>
 				</div>
 			</div>
-			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Dish of food"> </div>
+			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img itemprop="image" src="img/petergift_logo.png" alt="Dish of food"> </div>
 		</div>
 	</div>
 </section>
@@ -136,21 +146,31 @@
 			<h2 class="h2-secondary">Vores gæster siger</h2>
 			<blockquote>
 				<ul id="fade">
-					<li >
-						<p> "Nu har jeg kommet her gennem 5 værters tid, så må man da være en rigtig stamkunde! Det er ihvertfald sådan jeg vil betegne mig selv. Èn gang på Peter Gift og jeg var solgt .."</p>
-						<cite> Kjeld, 67 </cite></li>
-					<li>
-						<p> "Det eneste sted i Århus, hvor du kan få en rigtig velskænket øl ... Kvaliteten er altid i top når man besøger Peter Gift - Prøv det selv!"</p>
-						<cite> Niklas, 25</cite> </li>
-					<li>
-						<p> "Man føler sig altid velkommen på Peter Gift, det er som én stor familie når man besøger det hyggelige værtshus i Bruunsgade ..."</p>
-						<cite> Gitte, 43 </cite> </li>
-					<li>
-						<p>"Peter Gift er ikke bare en café, her er der mere hyggeligt. Efter min personlige mening, er det det bedste værtshus i byen - Hvilket AOA jo har givet mig ret i gennem 7 år ..." </p>
-						<cite> Sofie, 23 </cite> </li>
-					<li>
-						<p>"Jeg tænker altid på næste gang jeg skal ned på Peter Gift, det er simpelthen bare så hyggeligt og gårdhaven er lige mig, om sommeren er der intet bedre!" </p>
-						<cite> Lotte, 35 </cite></li>
+					<li itemprop="review" itemscope itemtype="http://schema.org/Review">
+						<p> "
+<span itemprop="reviewBody">Nu har jeg kommet her gennem 5 værters tid, så må man da være en rigtig stamkunde! Det er ihvertfald sådan jeg vil betegne mig selv. Èn gang på Peter Gift og jeg var solgt ..</span>"</p>
+						
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Kjeld, 67 </cite></span></li>
+					<li itemprop="review" itemscope itemtype="http://schema.org/Review">
+						<p> "
+<span itemprop="reviewBody">Det eneste sted i Århus, hvor du kan få en rigtig velskænket øl ... Kvaliteten er altid i top når man besøger Peter Gift - Prøv det selv!"</span></p>
+						
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Niklas, 25</cite></span> </li>
+					<li itemprop="review" itemscope itemtype="http://schema.org/Review">
+						<p> "
+<span itemprop="reviewBody">Man føler sig altid velkommen på Peter Gift, det er som én stor familie når man besøger det hyggelige værtshus i Bruunsgade ..</span>."</p>
+						
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Gitte, 43 </cite></span> </li>
+					<li itemprop="review" itemscope itemtype="http://schema.org/Review">
+						<p>"
+<span itemprop="reviewBody">Peter Gift er ikke bare en café, her er der mere hyggeligt. Efter min personlige mening, er det det bedste værtshus i byen - Hvilket AOA jo har givet mig ret i gennem 7 år ...</span>" </p>
+						
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Sofie, 23 </cite></span> </li>
+					<li itemprop="review" itemscope itemtype="http://schema.org/Review">
+						<p>"
+<span itemprop="reviewBody">Jeg tænker altid på næste gang jeg skal ned på Peter Gift, det er simpelthen bare så hyggeligt og gårdhaven er lige mig, om sommeren er der intet bedre!"</span> </p>
+						
+<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Lotte, 35 </cite></span></li>
 				</ul>
 			</blockquote>
 		</div>
@@ -171,7 +191,8 @@
 						<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
                         
 						<h5>KONTAKT OS</h5>
-						<p>Venligst kontakt os på e-mail info@petergift.dk eller på telefon 86 12 01 63.</p>
+						<p>Venligst kontakt os på e-mail <span itemprop="email">info@petergift.dk</span> eller på telefon 
+<span itemprop="telephone">86 12 01 63</span>.</p>
 						<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
 					</div>
 				</div>
@@ -223,7 +244,7 @@
 	<section class="footer-inner container">
 		<div class="clear">
 			<div class="footer-column col-4-desktop">
-				<h3 class="footer-heading">Peter Gift</h3>
+				<h3 itemprop="name" class="footer-heading">Peter Gift</h3>
 				<p> Kig ind - <br>
 					Her er der plads til alle!</p>
 			</div>
@@ -254,6 +275,6 @@
         document.getElementsByTagName("head")[0].appendChild(mf);
       })();
     </script>
-    
+   
 </body>
 </html>
