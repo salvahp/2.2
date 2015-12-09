@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Peter Gift</title>
-<meta name="robots" content="noindex, nofollow"> 
+<meta name="robots" content="noindex, nofollow">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="img/h_fabicon.png">
@@ -16,34 +16,31 @@
 
 <body>
 <?php include_once("analyticstracking.php") ?>
-
 <script src="js/vendor/wow.js"></script> 
 <script src="js/vendor/webfontloader.js"></script> 
-<script src="js/default.js"></script>
+<script src="js/default.js"></script> 
 <!-- navigation start -->
 
 <div id="banner" class="header-inner container clear"> <!--<a class="logo" href="#"><span class="sr">Lambda Logo</span>--></a>
-			<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
-			<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
-			<nav class="navigation">
-				<ul id="navtext" class="navigation-menu">
-					<li class="navigation-item"><a href="#about">Info</a></li>
-					<li class="navigation-item"><a href="#ingredients">Nyheder</a></li>
-					<li class="navigation-item"><a href="#menu">Menu</a></li>
-					<li class="navigation-item"><a href="#reviews">Udtalelser</a></li>
-					<li class="navigation-item"><a href="#reservations">Book et bord</a></li>
-				</ul>
-				<ul class="navigation-social">
-					<li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
-					<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
-				</ul>
-			</nav>
-		</div>
-<!-- navigation slut -->
+	<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
+	<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
+	<nav class="navigation">
+		<ul id="navtext" class="navigation-menu">
+			<li class="navigation-item current"><a href="#about">Info</a></li>
+			<li class="navigation-item"><a href="#ingredients">Nyheder</a></li>
+			<li class="navigation-item"><a href="#menu">Menu</a></li>
+			<li class="navigation-item"><a href="#reviews">Udtalelser</a></li>
+			<li class="navigation-item"><a href="#reservations">Book et bord</a></li>
+		</ul>
+		<ul class="navigation-social">
+			<li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
+			<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
+		</ul>
+	</nav>
+</div>
+<!-- navigation slut --> 
 <!--header 1 start -->
 <section  class="banner">
-
-    	
 	<div class="banner-inner container">
 		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2"><img src="img/logo_hero_pg.png"></span> </h1>
 		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book et bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
@@ -94,7 +91,7 @@
 						glas velskænket ROYAL. </p>
 				</div>
 			</div>
-			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Dish of food"> </div>
+			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img src="img/petergift_logo.png" alt="Peter Gift Logo"> </div>
 		</div>
 	</div>
 </section>
@@ -104,9 +101,12 @@
 		<div class="feature-box text-center col-12 col-12-desktop right">
 			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
-
-				<h6><?php include "admin/includes/nyheder/nyhedstitel.html"; ?></h6>
-				<p> <?php include "admin/includes/nyheder/nyhedstekst.html"; ?></p>
+				<h6>
+					<?php include "admin/includes/nyheder/nyhedstitel.html"; ?>
+				</h6>
+				<p>
+					<?php include "admin/includes/nyheder/nyhedstekst.html"; ?>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -114,22 +114,8 @@
 <!--menukort-->
 <?php include "admin/includes/samletmenu.php"; ?>
 
-<!--gæster siger//Guest reviews --> 
+<!--gæster siger//Guest reviews -->
 
-<script type="text/javascript" src="js/jquery00.js"></script> 
-<script type="text/javascript" src="js/ticker00.js"></script> 
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('#fade').list_ticker({
-			speed:4000,
-			effect:'fade'
-		});
-		$('#slide').list_ticker({
-			speed:2000,
-			effect:'slide'
-		});		
-	})
-	</script>
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
 		<div id="reviewsbox" class="feature-box text-center col-12-tablet col-8-desktop center-element">
@@ -169,7 +155,6 @@
 						<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
 							e-mail.</p>
 						<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
-                        
 						<h5>KONTAKT OS</h5>
 						<p>Venligst kontakt os på e-mail info@petergift.dk eller på telefon 86 12 01 63.</p>
 						<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
@@ -245,15 +230,38 @@
 	</section>
 </footer>
 
-<!--MOUSEFLOW-->
-    <script type="text/javascript">
+<!--MOUSEFLOW--> 
+<script type="text/javascript">
         var _mfq = _mfq || [];
         (function () {
         var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
         mf.src = "//cdn.mouseflow.com/projects/13019fdb-92c9-4071-a43c-b58c554a75c2.js";
         document.getElementsByTagName("head")[0].appendChild(mf);
       })();
-    </script>
-    
+    </script> 
+
+<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
+<!--[if gt IE 8]><!--><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><!--<![endif]--> 
+ 
+<script type="text/javascript" src="js/ticker00.js"></script> 
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$('#fade').list_ticker({
+			speed:4000,
+			effect:'fade'
+		});
+		
+		$('#slide').list_ticker({
+			speed:2000,
+			effect:'slide'
+		});		
+	//onePageslider 
+		$('#navtext').onePageNav();
+		});	
+</script>
+
 </body>
 </html>
