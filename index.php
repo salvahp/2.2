@@ -29,13 +29,12 @@
 	<nav class="navigation">
 		<ul id="navtext" class="navigation-menu">
 			<li class="navigation-item current"><a href="#about">Info</a></li>
-			<li class="navigation-item"><a href="#ingredients">Nyheder</a></li>
+			<li class="navigation-item"><a href="#news">Nyheder</a></li>
 			<li class="navigation-item"><a href="#menu">Menu</a></li>
 			<li class="navigation-item"><a href="#reviews">Udtalelser</a></li>
-			<li class="navigation-item"><a href="#reservations">Book et bord</a></li>
+			<li class="navigation-item"><a href="#reservations">Book bord</a></li>
 		</ul>
 		<ul class="navigation-social">
-			<li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
 			<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
 		</ul>
 	</nav>
@@ -44,8 +43,8 @@
 <!--header 1 start -->
 <section  class="banner">
 	<div class="banner-inner container">
-		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2"><img src="img/logo_hero_pg.png"></span> </h1>
-		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book et bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
+		<h1 class="banner-lead"> <span class="banner-lead-1"></span> <span class="banner-lead-2"><img id="pg_hero_logo" src="img/logo_hero_pg.png"></span> </h1>
+		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
 	</div>
 </section>
 <!-- Åbningstider  -->
@@ -97,8 +96,8 @@
 				<div id="text-petergift">
 					<p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
 						Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
-						pejsen. Vi tilbyder 45 forskellige spændende ølmærker fra hele verden, så kom ind og prøv noget nyt, eller nyd et 			
-						glas velskænket ROYAL. </p>
+						pejsen. Vi tilbyder 45 forskellige spændende ølmærker fra hele verden - så kom ind og prøv noget nyt eller nyd et 			
+						glas velskænket ROYAL! </p>
 				</div>
 			</div>
 			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img itemprop="image" src="img/petergift_logo.png" alt="Peter Gift logo"> </div>
@@ -106,7 +105,7 @@
 	</div>
 </section>
 <!--nyheder -->
-<section id="ingredients" class="content-block ingredients-block">
+<section id="news" class="content-block ingredients-block">
 	<div class="ingredients-block-inner container clear">
 		<div class="feature-box text-center col-12 col-12-desktop right">
 			<h2 class="h2-secondary">Nyheder</h2>
@@ -174,11 +173,11 @@
 						<p>I tidsrummet kl. 12:00 - 15.00 er reservationer forbeholdt spisende gæster.</p>
 						<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
 							e-mail.</p>
-						<p>Selskaber fra 7 personer kan ikke booke bord online.</p>
+						<p>Selskaber på mere end 6 personer kan ikke booke bord online.</p>
 						<h5>KONTAKT OS</h5>
 						<p>Venligst kontakt os på e-mail <span itemprop="email">info@petergift.dk</span> eller på telefon 
 <span itemprop="telephone">86 12 01 63</span>.</p>
-						<p>Ved telefonisk henvendelse kontaktes vi bedst imellem kl. 11.00-12.00 eller kl. 15.30-17.30.</p>
+						<p>Ved telefonisk henvendelse træffes vi bedst imellem kl. 11.00 - 12.00 eller kl. 15.30 -ial 17.30.</p>
 					</div>
 				</div>
 			</div>
@@ -187,7 +186,7 @@
 					<fieldset>
 						<legend class="sr">Contact Us</legend>
 						<div class="clear">
-							<h2>BORD RESERVATION</h2>
+							<h2>BORDRESERVATION</h2>
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="name">Navn</label>
 								<input name="full-name" class="field" id="name" type="text" placeholder="Dit navn *">
@@ -243,7 +242,6 @@
 				<p>M. P. Bruunsgade 28 </p>
 				<p>8000 Århus C</p>
 				<ul class="footer-social-list icon-list-inline">
-					<li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
 					<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
 				</ul>
 			</div>
@@ -271,7 +269,7 @@
 	$(document).ready(function(){
 		
 		$('#fade').list_ticker({
-			speed:4000,
+			speed:10000,
 			effect:'fade'
 		});
 		

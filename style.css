@@ -71,9 +71,13 @@ svg:not(:root) {
 	z-index: 8;
 	width: 100%;
 	text-align:center;
-	padding-bottom:5px;
 	top:0px;
 	}
+	
+	
+	#pg_hero_logo {
+		margin-top:115px;	
+		}
 
 
 body {
@@ -85,7 +89,7 @@ body {
   color: #abada2;
   background-color: #3d5c44;
   font-weight: 300;
-  background: #fff;
+  background: #3d5c44;
 }
 p {
   margin: 0 0 1em 0;
@@ -1925,8 +1929,9 @@ img {
   animation-name: fadeInRight;
 }
 .ingredients-block {
-  background: url(img/bg4_banner_img.png) 0 40% no-repeat;
+  background: url(img/bg4_banner_img.png) 0 no-repeat;
   background-size: cover;
+  min-height:560px;
 }
 .feature-image-group {
   padding-top: 20px;
@@ -2155,7 +2160,9 @@ img {
 
 #fade {
 	list-style:none;
-	min-height:70px;}
+	min-height:70px;
+	padding:30px;}
+	
 
 #text-reservations {
 	}
@@ -2306,6 +2313,7 @@ img {
 @media only screen and (min-width: 740px) {
   .feature-box {
     padding: 50px 60px;
+	border-radius:25px;
   }
   .header {
     background: #3d5c44;
