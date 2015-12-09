@@ -2151,10 +2151,11 @@ img {
 }
 
 #reviewsbox {
-	overflow-style:}
+	}
 
 #fade {
-	list-style:none;}
+	list-style:none;
+	min-height:70px;}
 
 #text-reservations {
 	}
