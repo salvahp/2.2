@@ -339,7 +339,17 @@ table tbody td,
 table tfoot td,
 table thead th,
 table tbody th,
-table tfoot th {}
+table tfoot th {	
+	}
+
+
+th {font-size: 24px;
+  line-height: 22px;
+  line-height: 1.375rem;
+  margin-bottom: .1em;
+  color: #abada2;
+  font-weight: 400;
+}
 
 code,
 kbd,
@@ -611,34 +621,28 @@ h2:after,
   border: 1px solid #000;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+
 }
 .button-primary:hover {
   background-color: #000;
   background-color: #000000;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000, endColorstr=#ff000000);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000, endColorstr=#ff000000);
+  
 }
 .button-secondary {
   border: 1px solid #fff;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.15);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#26ffffff, endColorstr=#26ffffff);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#26ffffff, endColorstr=#26ffffff);
+  
 }
 .button-secondary:hover {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#00ffffff);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#00ffffff);
 }
 .feature-box {
   color: #fff;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.8);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
+  
 }
 .social {
   width: 16px;
@@ -1707,8 +1711,6 @@ img {
   height: 1px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff);
   position:absolute;
   bottom: 0;
   left: 0;
@@ -1820,7 +1822,7 @@ img {
   font-weight: 400;
   margin: 0;
   display: block;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   position: relative;
 }
@@ -1847,8 +1849,6 @@ img {
   height: 1px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff);
   position: absolute;
   top: 0;
   left: 0;
@@ -2042,8 +2042,6 @@ img {
   padding: 0 5px;
   background-color: #d2bb87;
   background-color: rgba(205, 159, 11, 0.8);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccd9f0b, endColorstr=#cccd9f0b);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccd9f0b, endColorstr=#cccd9f0b);
   color: #fff;
 }
 .food-menu-heading {
