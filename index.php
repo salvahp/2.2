@@ -42,30 +42,25 @@
 <!-- navigation slut --> 
 <!--header 1 start -->
 <div  class="banner">
-	<div class="banner-inner container">
-		<img id="pg_hero_logo" src="img/logo_hero_pg.png" alt="Peter Gifts Logo">
+	<div class="banner-inner container"> <img id="pg_hero_logo" src="img/logo_hero_pg.png" alt="Peter Gifts Logo">
 		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
 	</div>
 </div>
 
-<!-- Åbningstider  -->
-<span itemscope itemtype="http://schema.org/LocalBusiness"></span> 
+<!-- Åbningstider  --> 
+<span itemscope itemtype="http://schema.org/LocalBusiness"></span>
 <section id="about" class="content-block about-block">
 	<div class="about-block-inner container">
 		<div class="clear text-left">
 			<div id="infotext"  class="about-block-content col-6-desktop"  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-					<table class="h2">
-						<tr>
-							<td itemprop="streetAddress">M.P. Bruunsgade 28,</td>
-						</tr>
-						<tr>
-						<td>
-							<span itemprop="postalCode">8000</span>
-							<span itemprop="addressLocality"> Århus C</span>
-						</td>
-						</tr>
-					</table>
-				
+				<table class="h2">
+					<tr>
+						<td itemprop="streetAddress">M.P. Bruunsgade 28,</td>
+					</tr>
+					<tr>
+						<td><span itemprop="postalCode">8000</span> <span itemprop="addressLocality"> Århus C</span></td>
+					</tr>
+				</table>
 				<table>
 					<tbody>
 						<tr>
@@ -73,13 +68,11 @@
 						</tr>
 						<tr itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
 							<td itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek"><p itemprop="name">Mandag - lørdag:</p></td>
-							<td><p itemprop="opens">11:00 - </p>
-<p itemprop="closes">01:00</p></td>
+							<td><p><span itemprop="opens">11:00 - </span> <span itemprop="closes">01:00</span></p></td>
 						</tr>
 						<tr itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
 							<td itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek"><p itemprop="name">Søndag og helligdage:</p></td>
-							<td><p itemprop="opens">14:00 - 
-</p> <p itemprop="closes">22:00</p></td>
+							<td><p><span itemprop="opens">14:00 - </span> <span itemprop="closes">22:00</span></p></td>
 						</tr>
 						<tr>
 							<td colspan="2"></td>
@@ -89,13 +82,11 @@
 						</tr>
 						<tr>
 							<td><p>Tirsdag-fredag:</p></td>
-							<td><p>11:00 - 15:00</p>
-							</td>
+							<td><p>11:00 - 15:00</p></td>
 						</tr>
 						<tr>
 							<td><p>Lørdagsbuffet: </p></td>
-							<td><p>12:00 - 15:00
-								</p></td>
+							<td><p>12:00 - 15:00 </p></td>
 						</tr>
 					</tbody>
 				</table>
@@ -106,7 +97,7 @@
 						glas velskænket ROYAL! </p>
 				</div>
 			</div>
-			<div class="about-block-img col-6-desktop none-tablet block-desktop"> <img itemprop="image" src="img/petergift_logo.png" alt="Peter Gift logo"> </div>
+			<div class="about-block-img col-6-desktop none-tablet block-desktop"><img src="img/petergift_logo.png" alt="Peter Gift logo" itemprop="image"></div>
 		</div>
 	</div>
 </section>
@@ -138,29 +129,20 @@
 			<blockquote>
 				<ul id="fade" itemprop="review" itemscope itemtype="http://schema.org/Review">
 					<li>
-						<p itemprop="reviewBody">
-						"Nu har jeg kommet her gennem 5 værters tid, så må man da være en rigtig stamkunde! Det er ihvertfald sådan jeg vil betegne mig selv. Èn gang på Peter Gift og jeg var solgt .."
-						</p>
-						
-<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Kjeld, 67 </cite></span></li>
+						<p itemprop="reviewBody">"Nu har jeg kommet her gennem 5 værters tid, så må man da være en rigtig stamkunde! Det er ihvertfald sådan jeg vil betegne mig selv. Èn gang på Peter Gift og jeg var solgt .."</p>
+						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name">Kjeld, 67</cite></span></li>
 					<li>
-						<p itemprop="reviewBody">
-							"Det eneste sted i Århus, hvor du kan få en rigtig velskænket øl ... Kvaliteten er altid i top når man besøger Peter Gift - Prøv det selv!"
-						</p>
-						
-<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Niklas, 25</cite></span> </li>
+						<p itemprop="reviewBody">"Det eneste sted i Århus, hvor du kan få en rigtig velskænket øl ... Kvaliteten er altid i top når man besøger Peter Gift - Prøv det selv!"</p>
+						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name">Niklas, 25</cite></span> </li>
 					<li>
 						<p itemprop="reviewBody">"Man føler sig altid velkommen på Peter Gift, det er som én stor familie når man besøger det hyggelige værtshus i Bruunsgade ..."</p>
-						
-<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Gitte, 43 </cite></span> </li>
+						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name">Gitte, 43</cite></span> </li>
 					<li>
-						<p itemprop="reviewBody">"Peter Gift er ikke bare en café, her er der mere hyggeligt. Efter min personlige mening, er det det bedste værtshus i byen - Hvilket AOA jo har givet mig ret i gennem 7 år ..." </p>
-						
-<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Sofie, 23 </cite></span> </li>
+						<p itemprop="reviewBody">"Peter Gift er ikke bare en café, her er der mere hyggeligt. Efter min personlige mening, er det det bedste værtshus i byen - Hvilket AOA jo har givet mig ret i gennem 7 år ..."</p>
+						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name">Sofie, 23</cite></span> </li>
 					<li>
 						<p itemprop="reviewBody">"Jeg tænker altid på næste gang jeg skal ned på Peter Gift, det er simpelthen bare så hyggeligt og gårdhaven er lige mig, om sommeren er der intet bedre!"</p>
-						
-<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name"> Lotte, 35 </cite></span></li>
+						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><cite itemprop="name">Lotte, 35</cite></span></li>
 				</ul>
 			</blockquote>
 		</div>
@@ -180,8 +162,7 @@
 							e-mail.</p>
 						<p>Selskaber på mere end 6 personer kan ikke booke bord online.</p>
 						<h5>KONTAKT OS</h5>
-						<p>Venligst kontakt os på e-mail <span itemprop="email">info@petergift.dk</span> eller på telefon 
-<span itemprop="telephone">86 12 01 63</span>.</p>
+						<p>Venligst kontakt os på e-mail <span itemprop="email">info@petergift.dk</span> eller på telefon <span itemprop="telephone">86 12 01 63</span>.</p>
 						<p>Ved telefonisk henvendelse træffes vi bedst imellem kl. 11.00 - 12.00 eller kl. 15.30 -ial 17.30.</p>
 					</div>
 				</div>
@@ -233,46 +214,39 @@
 	<section class="footer-inner container">
 		<div class="clear">
 			<table class="footer-column col-4-desktop text-center">
-					<tr>
+				<tr>
 					<td itemprop="name" class="footer-heading h3">Peter Gift</td>
-					</tr>
-					
-					<tr>
-						<td>Kig ind</td>
-					</tr>
-					<tr>
-						<td>- Her er der plads til alle</td>
-					</tr>
+				</tr>
+				<tr>
+					<td>Kig ind</td>
+				</tr>
+				<tr>
+					<td>- Her er der plads til alle</td>
+				</tr>
 			</table>
-			
 			<table class="footer-column col-4-desktop text-center">
-					<tr>
+				<tr>
 					<td colspan="2" itemprop="name" class="footer-heading h3">Åbningstider</td>
-					</tr>
-					
-					<tr>
-						<td>Dagligt: </td>
-						<td>11:00 - 01:00</td>
-					</tr>
-					<tr>
-						
-						<td class="text-right">Søndag og helligdage: </td>
-						<td class="text-left"> 14:00 - 22:00</td>
-						
-					</tr>
+				</tr>
+				<tr>
+					<td>Dagligt: </td>
+					<td>11:00 - 01:00</td>
+				</tr>
+				<tr>
+					<td>Søndag og helligdage: </td>
+					<td> 14:00 - 22:00</td>
+				</tr>
 			</table>
-			
 			<table class="footer-column col-4-desktop text-center">
-					<tr>
+				<tr>
 					<td itemprop="name" class="footer-heading h3">Peter Gift</td>
-					</tr>
-					
-					<tr>
-						<td>Kig ind</td>
-					</tr>
-					<tr>
-						<td>- Her er der plads til alle</td>
-					</tr>
+				</tr>
+				<tr>
+					<td>Kig ind</td>
+				</tr>
+				<tr>
+					<td>- Her er der plads til alle</td>
+				</tr>
 			</table>
 			<div class="footer-column col-4-desktop">
 				<h3 class="footer-heading">Åbningstider</h3>
@@ -303,10 +277,9 @@
 
 <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
 <!--[if gt IE 8]><!--><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><!--<![endif]--> 
- 
+
 <script type="text/javascript" src="js/ticker00.js"></script> 
 <script type="text/javascript" src="js/jquery.nav.js"></script> 
-
 <script type="text/javascript">
 	$(document).ready(function(){
 		
@@ -323,6 +296,5 @@
 		$('#navtext').onePageNav();
 		});	
 </script>
-
 </body>
 </html>
