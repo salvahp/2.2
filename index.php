@@ -190,6 +190,7 @@
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="party-size">Antal personer</label>
 								<span class="select">
+								
 								<select name="party-size" id="party-size">
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -229,34 +230,23 @@
 					<td colspan="2" itemprop="name" class="footer-heading h3">Åbningstider</td>
 				</tr>
 				<tr>
-					<td>Dagligt: </td>
-					<td>11:00 - 01:00</td>
+					<td>Dagligt: 11:00 - 01:00</td>
 				</tr>
 				<tr>
-					<td>Søndag og helligdage: </td>
-					<td> 14:00 - 22:00</td>
+					<td>Søndag og helligdage: 14:00 - 22:00</td>
 				</tr>
 			</table>
 			<table class="footer-column col-4-desktop text-center">
 				<tr>
-					<td itemprop="name" class="footer-heading h3">Peter Gift</td>
+					<td itemprop="name" class="footer-heading h3">Her er vi</td>
 				</tr>
 				<tr>
-					<td>Kig ind</td>
+					<td>M. P. Bruunsgade 28,</td>
 				</tr>
 				<tr>
-					<td>- Her er der plads til alle</td>
+					<td>8000 Århus C</td>
 				</tr>
 			</table>
-			<div class="footer-column col-4-desktop">
-				<h3 class="footer-heading">Åbningstider</h3>
-				<p> Dagligt: 11-01<br>
-					Søndag og helligdage: 14-22</p>
-			</div>
-			<div class="footer-column col-4-desktop">
-				<h3 class="footer-heading">Her er vi </h3>
-				<p>M. P. Bruunsgade 28 </p>
-				<p>8000 Århus C</p>
 				<ul class="footer-social-list icon-list-inline">
 					<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
 				</ul>
