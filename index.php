@@ -34,8 +34,14 @@
 			<li class="navigation-item"><a href="#reviews">Udtalelser</a></li>
 			<li class="navigation-item"><a href="#reservations">Book bord</a></li>
 		</ul>
-		<ul class="navigation-social">
-			<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
+		<ul class="navigation-social footer-social-list icon-list-inline">
+			<li class="navigation-item-social">
+				<a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts" target="_blank">			
+					<span class="sr">
+						Facebook
+					</span>
+				</a>
+			</li>
 		</ul>
 	</nav>
 </div>
@@ -64,7 +70,7 @@
 				<table>
 					<tbody>
 						<tr>
-							<th colspan="2">Åbningstider</th>
+							<th colspan="2" class="h5">Åbningstider</th>
 						</tr>
 						<tr itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
 							<td itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek"><p itemprop="name">Mandag - lørdag:</p></td>
@@ -78,7 +84,7 @@
 							<td colspan="2"></td>
 						</tr>
 						<tr>
-							<th colspan="2">Køkkenet</th>
+							<th colspan="2" class="h5">Køkkenet</th>
 						</tr>
 						<tr>
 							<td><p>Tirsdag-fredag:</p></td>
@@ -86,7 +92,7 @@
 						</tr>
 						<tr>
 							<td><p>Lørdagsbuffet: </p></td>
-							<td><p>12:00 - 15:00 </p></td>
+							<td><p>12:00 - 15:00</p></td>
 						</tr>
 					</tbody>
 				</table>
@@ -94,7 +100,7 @@
 					<p>Vi holder traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. 
 						Vi har en hyggelig gårdhave, der er åbent fra marts til oktober. Når gårdhaven er lukket, tænder vi op i
 						pejsen. Vi tilbyder 45 forskellige spændende ølmærker fra hele verden - så kom ind og prøv noget nyt eller nyd et 			
-						glas velskænket ROYAL! </p>
+						glas velskænket ROYAL!</p>
 				</div>
 			</div>
 			<div class="about-block-img col-6-desktop none-tablet block-desktop"><img src="img/petergift_logo.png" alt="Peter Gift logo" itemprop="image"></div>
@@ -190,7 +196,6 @@
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="party-size">Antal personer</label>
 								<span class="select">
-								
 								<select name="party-size" id="party-size">
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -247,10 +252,10 @@
 					<td>8000 Århus C</td>
 				</tr>
 			</table>
-				<ul class="footer-social-list icon-list-inline">
-					<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
-				</ul>
-			</div>
+			<ul class="footer-social-list icon-list-inline">
+				<li class="navigation-item-social"><a class="social social-facebook" href="https://www.facebook.com/Peter-Gift-452296481516035/?fref=ts"><span class="sr">Facebook</span></a></li>
+			</ul>
+		</div>
 		</div>
 	</section>
 </footer>
