@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <!-- Mikrodatamarkering tilføjet af Google Markeringsværktøj til strukturerede data. -->
-<html lang="en">
+<html lang="da">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Peter Gift</title>
 <meta name="robots" content="noindex, nofollow">
-<meta name="description" content="">
+<meta name="description" content="Hos Peter Gift holder vi traditionerne i hævd, og i 2006 kunne vi fejre 100 års jubilæum. Kom ind og nyd en pause i hverdagen.">
+<meta name="keywords" content="Bar, dansk traditionel mad, frokost buffet, jule buffet, bodega, aarhus, århus, gammel">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta itemprop="url" content="http://www.avejle.dk/petergift">
-<link rel="shortcut icon" href="img/h_fabicon.png">
+<link rel="shortcut icon" href="img/h_favicon.png">
 <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
@@ -17,12 +18,14 @@
 </head>
 
 <body>
+
 <?php include_once("analyticstracking.php") ?>
 <script src="js/vendor/wow.js"></script> 
 <script src="js/vendor/webfontloader.js"></script> 
 <script src="js/default.js"></script> 
-<!-- navigation start -->
 
+
+<!-- NAVIGATION STAR -->
 <div id="banner" class="header-inner container clear">
 	<input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
 	<label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick> <span class="navigation-toggle-label-inner"> <span class="sr">Navigation</span> </span> </label>
@@ -45,15 +48,15 @@
 		</ul>
 	</nav>
 </div>
-<!-- navigation slut --> 
-<!--header 1 start -->
+<!-- NAVIGATION SLUT --> 
+<!-- HEADER START -->
 <div  class="banner">
-	<div class="banner-inner container"> <img id="pg_hero_logo" src="img/logo_hero_pg.png" alt="Peter Gifts Logo">
+	<div class="banner-inner container"><img id="pg_hero_logo" src="img/logo_hero_pg.png" alt="Peter Gifts Logo">
 		<div class="banner-buttons"> <a href="#reservations" class="button button-primary">Book bord</a> <a href="#menu" class="button button-primary">Se menuen</a> </div>
 	</div>
 </div>
 
-<!-- Åbningstider  --> 
+<!-- ÅBNINGSTIDER --> 
 <span itemscope itemtype="http://schema.org/LocalBusiness"></span>
 <section id="about" class="content-block about-block">
 	<div class="about-block-inner container">
@@ -107,13 +110,14 @@
 		</div>
 	</div>
 </section>
-<!--nyheder -->
+<!-- ÅBNINGSTIDER SLUT -->
+<!-- NYHEDER -->
 <section id="news" class="content-block ingredients-block">
 	<div class="ingredients-block-inner container clear">
 		<div class="feature-box text-center col-12 col-12-desktop right">
 			<h2 class="h2-secondary">Nyheder</h2>
 			<div class="feature-box-content">
-				<h6>
+				<h6> <!-- her trækker vi data fra en html fil ind på siden -->
 					<?php include "admin/includes/nyheder/nyhedstitel.html"; ?>
 				</h6>
 				<p>
@@ -123,10 +127,10 @@
 		</div>
 	</div>
 </section>
-<!--menukort-->
+<!-- MENUKORT, trukket ind med include -->
 <?php include "admin/includes/samletmenu.php"; ?>
 
-<!--gæster siger//Guest reviews -->
+<!-- VORES GÆSTER... //GUEST REVIEWS -->
 
 <section id="reviews" class="content-block reviews-block">
 	<div class="reviews-block-inner container">
@@ -155,7 +159,7 @@
 	</div>
 </section>
 
-<!--reservationer-->
+<!-- RESERVATIONER -->
 <section id="reservations" class="content-block reservations-block">
 	<div class="reservations-block-inner container">
 		<div class="clear"> <img class="madbillede" src="img/mad_img.jpg" alt="Mad på Peter Gift">
@@ -191,7 +195,7 @@
 						<div class="clear">
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="date">Dato</label>
-								<input name="date-of-booking" class="field" id="date" type="date" <?php /*?>placeholder="dato *"<?php */?>>
+								<input name="date-of-booking" class="field" id="date" type="date">
 							</div>
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="party-size">Antal personer</label>
@@ -215,7 +219,8 @@
 		</div>
 	</div>
 </section>
-<!--footer-->
+<!-- RESERVATIONER SLUT -->
+<!-- FOOTER -->
 <footer class="footer">
 	<section class="footer-inner container">
 		<div class="clear">
@@ -260,7 +265,7 @@
 	</section>
 </footer>
 
-<!--MOUSEFLOW--> 
+<!-- MOUSEFLOW --> 
 <script type="text/javascript">
         var _mfq = _mfq || [];
         (function () {
@@ -275,6 +280,8 @@
 
 <script type="text/javascript" src="js/ticker00.js"></script> 
 <script type="text/javascript" src="js/jquery.nav.js"></script> 
+
+<!-- funktionen der skifter udtalelser i "Vores gæster siger" -->
 <script type="text/javascript">
 	$(document).ready(function(){
 		
