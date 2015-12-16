@@ -166,7 +166,7 @@
 			<div class="reservation-block-form col-5-tablet">
 				<div class=".text-left">
 					<div id="text-reservations">
-						<h5>RESERVATION</h5>
+						<h5>BORDRESERVATION</h5>
 						<p>I tidsrummet kl. 12:00 - 15.00 er reservationer forbeholdt spisende gæster.</p>
 						<p>Du modtager straks efter bestillingen en bekræftelse på e-mail, hvis der er tilknyttet en
 							e-mail.</p>
@@ -182,7 +182,7 @@
 					<fieldset>
 						<legend class="sr">Contact Us</legend>
 						<div class="clear">
-							<h2>BORDRESERVATION</h2>
+							<h2>RESERVATION</h2>
 							<div class="col-6-tablet field-group">
 								<label class="block strong" for="name">Navn</label>
 								<input name="full-name" class="field" id="name" type="text" placeholder="Dit navn *">
